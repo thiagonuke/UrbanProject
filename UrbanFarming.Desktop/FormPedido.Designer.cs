@@ -17,7 +17,7 @@
         private void InitializeComponent()
         {
             dataGridViewPedidos = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(dataGridViewPedidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewPedidos).BeginInit();
             SuspendLayout();
             // 
             // dataGridViewPedidos
@@ -26,7 +26,6 @@
             dataGridViewPedidos.Location = new Point(12, 12);
             dataGridViewPedidos.Name = "dataGridViewPedidos";
             dataGridViewPedidos.ReadOnly = true;
-            dataGridViewPedidos.RowTemplate.Height = 25;
             dataGridViewPedidos.Size = new Size(760, 400);
             dataGridViewPedidos.TabIndex = 0;
             // 
@@ -36,7 +35,7 @@
             Controls.Add(dataGridViewPedidos);
             Name = "FormPedido";
             Text = "Pedidos Feitos";
-            ((System.ComponentModel.ISupportInitialize)(dataGridViewPedidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewPedidos).EndInit();
             ResumeLayout(false);
         }
     }
