@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrbanFarmingWeb.UI", "Urban
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrbanFarmingAPI", "..\UrbanFarmingAPI\UrbanFarmingAPI.csproj", "{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrbanFarmingDesktop.UI", "..\UrbanFarmingDesktop.UI\UrbanFarmingDesktop.UI.csproj", "{74872CAD-A0E6-4498-9143-68D349BA0BC7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrbanFarming.Service", "..\UrbanFarming.Service\UrbanFarming.Service.csproj", "{5652DA5B-4846-403E-B3B0-9591FBF577A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrbanFarming.Domain", "..\UrbanFarming.Domain\UrbanFarming.Domain.csproj", "{EF2B155E-87B1-4B27-93A5-0459715DCB63}"
@@ -20,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMobileUrban.Android", "..\AppMobileUrban\AppMobileUrban.Android\AppMobileUrban.Android.csproj", "{4A2A4776-65B4-496C-AFBD-EF2420DB5A22}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppMobileUrban", "..\AppMobileUrban\AppMobileUrban\AppMobileUrban.csproj", "{31BB30BC-4D91-4FEA-9A65-E7244E97E780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanFarming.Desktop", "..\UrbanFarming.Desktop\UrbanFarming.Desktop.csproj", "{C100B482-5FCB-4C9C-88FB-E75FC0383094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,6 @@ Global
 		{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74872CAD-A0E6-4498-9143-68D349BA0BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74872CAD-A0E6-4498-9143-68D349BA0BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74872CAD-A0E6-4498-9143-68D349BA0BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74872CAD-A0E6-4498-9143-68D349BA0BC7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5652DA5B-4846-403E-B3B0-9591FBF577A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5652DA5B-4846-403E-B3B0-9591FBF577A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5652DA5B-4846-403E-B3B0-9591FBF577A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,6 +63,10 @@ Global
 		{31BB30BC-4D91-4FEA-9A65-E7244E97E780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31BB30BC-4D91-4FEA-9A65-E7244E97E780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31BB30BC-4D91-4FEA-9A65-E7244E97E780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C100B482-5FCB-4C9C-88FB-E75FC0383094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C100B482-5FCB-4C9C-88FB-E75FC0383094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C100B482-5FCB-4C9C-88FB-E75FC0383094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C100B482-5FCB-4C9C-88FB-E75FC0383094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
