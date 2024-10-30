@@ -36,9 +36,7 @@ namespace UrbanFarming.Data.Mapping
                 .IsRequired();
 
             modelBuilder.Entity<Pedido>()
-                .HasMany(p => p.Itens)
-                .WithOne(i => i.Pedido)
-                .HasForeignKey(i => i.CodigoPedido);
+                .HasMany(p => p.Itens);
         }
     }
 }

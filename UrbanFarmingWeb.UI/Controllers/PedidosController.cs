@@ -22,21 +22,20 @@ namespace UrbanFarmingWeb.UI.Controllers
 
             var pedidos = _requestAPI.ListaPedidos().Result;
 
-
-            return View();
+            return View(pedidos);
         }
 
         [HttpPost]
         public IActionResult CadastrarPedidos([FromBody] Pedido pedido)
         {
-            var aa = JsonConvert.SerializeObject(pedido);
-            if (ModelState.IsValid)
-            {
-                var teste = _requestAPI.EfetuarCadastradoPedido(pedido).Result;
+            pedido.Data = DateTime.Now;
+            pedido.Usuario = HttpContext.Session.Get<User>("USER").Nome;
 
-                return Ok("Pedido cadastrado com sucesso!");
-            }
-            return BadRequest("Erro ao cadastrar o pedido.");
+          
+            var teste = _requestAPI.EfetuarCadastradoPedido(pedido).Result;
+
+            return Ok("Pedido cadastrado com sucesso!");
+            
         }
     }
 }

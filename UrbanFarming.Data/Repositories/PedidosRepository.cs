@@ -18,22 +18,55 @@ namespace UrbanFarming.Data.Repositories
 
         public async Task<Pedido> GetByCodigo(int codigo) 
         {
-            return await _context.Pedidos.Include(p => p.Itens) 
+            return await _context.PedidoLst.Include(p => p.Itens) 
                 .FirstOrDefaultAsync(u => u.CodigoPedido == codigo);
         }
 
         public async Task<List<Pedido>> GetAllPedidos()
         {
-            return await _context.Pedidos.Include(p => p.Itens)
-                .ToListAsync();
+            try
+            {
+                return await _context.PedidoLst.Include(p => p.Itens)
+              .ToListAsync();
+            }
+            catch(Exception ex) { return null; }
+          
         }
 
         public async Task<bool> PostPedido(Pedido pedido)
         {
             try
             {
-                await _context.Pedidos.AddAsync(pedido);
+                var id = 0;
+
+                if (_context.Pedidos.Any())
+                {
+
+                    id = _context.Pedidos.Max(p => p.CodigoPedido) + 1;
+                }
+                pedido.CodigoPedido = id;
+
+
+                await _context.Pedidos.AddAsync(new Pedidos()
+                {
+                    CodigoPedido = pedido.CodigoPedido,
+                    ValorTotal = pedido.ValorTotal,
+                    Usuario  = pedido.Usuario,  
+                    Data = pedido.Data  
+
+                });
                 await _context.SaveChangesAsync();
+
+                foreach (var i in pedido.Itens)
+                {
+                    i.CodigoPedido = id;
+
+
+                    await _context.ItensPedido.AddAsync(i);
+
+                    await _context.SaveChangesAsync();
+                }
+
 
                 return true;
             }
@@ -47,7 +80,7 @@ namespace UrbanFarming.Data.Repositories
         {
             try
             {
-                var existingPedido = await _context.Pedidos.Include(p => p.Itens).FirstOrDefaultAsync(p => p.CodigoPedido == pedido.CodigoPedido);
+                var existingPedido = await _context.PedidoLst.Include(p => p.Itens).FirstOrDefaultAsync(p => p.CodigoPedido == pedido.CodigoPedido);
 
                 if (existingPedido == null)
                 {
@@ -75,13 +108,13 @@ namespace UrbanFarming.Data.Repositories
         {
             try
             {
-                var pedido = await _context.Pedidos.Include(p => p.Itens).FirstOrDefaultAsync(p => p.CodigoPedido == codigo);
+                var pedido = await _context.PedidoLst.Include(p => p.Itens).FirstOrDefaultAsync(p => p.CodigoPedido == codigo);
 
                 if (pedido == null)
                     return false;
 
                 _context.ItensPedido.RemoveRange(pedido.Itens); 
-                _context.Pedidos.Remove(pedido);
+                //_context.Pedidos.Remove(pedido);
 
                 await _context.SaveChangesAsync();
 

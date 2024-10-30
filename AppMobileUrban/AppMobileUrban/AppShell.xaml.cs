@@ -1,4 +1,5 @@
-﻿using AppMobileUrban.ViewModels;
+﻿using AppMobileUrban.Services;
+using AppMobileUrban.ViewModels;
 using AppMobileUrban.Views;
 using System;
 using System.Collections.Generic;
@@ -20,5 +21,17 @@ namespace AppMobileUrban
         {
             await Shell.Current.GoToAsync("//LoginPage");
         }
+        private async void OnLogoutClicked(object sender, EventArgs e)
+        {
+            Application.Current.Properties.Remove("Usuario");
+            Application.Current.Properties.Remove("Senha");
+            Application.Current.Properties.Remove("Nome");
+            Application.Current.Properties.Remove("Administrador");
+            await Application.Current.SavePropertiesAsync();
+
+
+            await Navigation.PushAsync(new LoginPage(new requests()));
+        }
+
     }
 }

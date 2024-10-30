@@ -49,7 +49,7 @@ namespace AppMobileUrban.Views
 
                 var loginResponse = await _request.EfetuarLogin(email, senha);
 
-                if (loginResponse != null)
+                if (loginResponse.Email != null)
                 {
                     SaveUserSession(loginResponse);
 

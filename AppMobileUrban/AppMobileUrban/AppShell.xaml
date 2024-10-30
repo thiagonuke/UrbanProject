@@ -89,6 +89,8 @@
     <FlyoutItem Title="Pedidos" Icon="icon_about.png">
         <ShellContent Route="PedidosPage" ContentTemplate="{DataTemplate local:PedidosPage}" />
     </FlyoutItem>
+    <MenuItem Text="Logout" IconImageSource="icon_logout.png" Clicked="OnLogoutClicked" />
+
     <!--<FlyoutItem Title="Browse" Icon="icon_feed.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>-->
