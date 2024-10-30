@@ -1,4 +1,5 @@
-﻿using AppMobileUrban.ViewModels;
+﻿using AppMobileUrban.Services;
+using AppMobileUrban.ViewModels;
 using System;
 using System.ComponentModel;
 using Xamarin.Forms;
@@ -13,6 +14,11 @@ namespace AppMobileUrban.Views
             InitializeComponent();
             BindingContext = new ItemsViewModel();
 
+        }
+
+        public async void onRegisterProduct(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CadastroProdutoPage(new requests()));
         }
     }
 }

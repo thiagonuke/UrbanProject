@@ -1,26 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\",
+  "WorkspaceRootPath": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\das\\urbanproject\\appmobileurban\\appmobileurban\\services\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{531C74E4-B078-47AE-AE18-DBD4CD276E44}|..\\UrbanFarming.Data\\UrbanFarming.Data.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.data\\context\\urbancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingweb.ui\\request\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{531C74E4-B078-47AE-AE18-DBD4CD276E44}|..\\UrbanFarming.Data\\UrbanFarming.Data.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.data\\mapping\\itenspedidomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531C74E4-B078-47AE-AE18-DBD4CD276E44}|..\\UrbanFarming.Data\\UrbanFarming.Data.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.data\\repositories\\pedidosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF2B155E-87B1-4B27-93A5-0459715DCB63}|..\\UrbanFarming.Domain\\UrbanFarming.Domain.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.domain\\classes\\itenspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF2B155E-87B1-4B27-93A5-0459715DCB63}|..\\UrbanFarming.Domain\\UrbanFarming.Domain.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.domain\\classes\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\request\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:request\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\das\\urbanproject\\appmobileurban\\appmobileurban\\views\\cadastro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF2B155E-87B1-4B27-93A5-0459715DCB63}|..\\UrbanFarming.Domain\\UrbanFarming.Domain.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.domain\\classes\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingapi\\controllers\\segurancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{531C74E4-B078-47AE-AE18-DBD4CD276E44}|..\\UrbanFarming.Data\\UrbanFarming.Data.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.data\\mapping\\pedidosmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingweb.ui\\controllers\\segurancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\cadastroprodutopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\services\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\cadastroprodutopage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\controllers\\segurancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\aboutpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\viewmodels\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\viewmodels\\itemsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\appmobileurban.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\cadastro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\cadastro.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\controllers\\segurancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:controllers\\segurancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\das\\urbanproject\\appmobileurban\\appmobileurban\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
@@ -29,26 +104,18 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingweb.ui\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\PedidosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingweb.ui\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingweb.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingweb.ui\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\das\\urbanproject\\urbanfarmingweb.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -77,6 +144,15 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\UrbanFarmingProject\\UrbanFarming.Data\\UrbanFarming.Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\das\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,16 +162,372 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CadastroProdutoPage.xaml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwB8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T17:59:16.377Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CadastroProdutoPage.xaml.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwFcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:59:56.841Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "requests.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwDEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:59:12.814Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestAPI.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Request\\RequestAPI.cs",
+              "RelativeDocumentMoniker": "Request\\RequestAPI.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Request\\RequestAPI.cs",
+              "RelativeToolTip": "Request\\RequestAPI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T04:28:46.694Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T06:10:45.158Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pedidos.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Domain\\Classes\\Pedidos.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Domain\\Classes\\Pedidos.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Domain\\Classes\\Pedidos.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Domain\\Classes\\Pedidos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:58:18.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Domain\\Classes\\Pedido.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Domain\\Classes\\Pedido.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Domain\\Classes\\Pedido.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Domain\\Classes\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:55:44.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PedidosMap.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Mapping\\PedidosMap.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Mapping\\PedidosMap.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Mapping\\PedidosMap.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Data\\Mapping\\PedidosMap.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAawCAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:50:50.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UrbanContext.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Context\\UrbanContext.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Context\\UrbanContext.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Context\\UrbanContext.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Data\\Context\\UrbanContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:02:41.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Pedidos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pedidos\\Index.cshtml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Pedidos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pedidos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T19:29:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItensPedidoMap.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Mapping\\ItensPedidoMap.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Mapping\\ItensPedidoMap.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Mapping\\ItensPedidoMap.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Data\\Mapping\\ItensPedidoMap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:14:04.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItensPedido.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Domain\\Classes\\ItensPedido.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Domain\\Classes\\ItensPedido.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Domain\\Classes\\ItensPedido.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Domain\\Classes\\ItensPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:13:14.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidosRepository.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:12:41.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:12:11.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:02:21.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppMobileUrban",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-29T18:33:15.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T18:21:11.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cadastro.xaml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T17:59:24.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ItemsViewModel.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAF8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:55:25.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AboutViewModel.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\AboutViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\AboutViewModel.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\AboutViewModel.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\AboutViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:55:56.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T17:50:52.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AboutPage.xaml.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:50:50.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:41:50.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvyAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:39:58.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T17:39:45.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Cadastro.xaml.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:04:22.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SegurancaController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:58:50.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "SegurancaController.cs",
               "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
-              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\das\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
               "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
-              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeToolTip": "..\\..\\..\\das\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T14:39:16.402Z",
@@ -103,25 +535,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 29,
               "Title": "requests.cs",
               "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
-              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
               "ToolTip": "E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
-              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAyAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T14:26:56.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 46,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "ToolTip": "E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAEwEYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T14:25:39.557Z",
@@ -129,32 +561,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 47,
               "Title": "Cadastro.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
-              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
               "ToolTip": "E:\\Projeto\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
-              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\das\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T14:23:31.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 34,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Program.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Program.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:34:21.398Z"
+              "WhenOpened": "2024-10-27T06:34:21.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 36,
               "Title": "Pedidos.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarming.Domain\\Classes\\Pedidos.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarming.Domain\\Classes\\Pedidos.cs",
@@ -162,11 +595,12 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\UrbanFarming.Domain\\Classes\\Pedidos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:19:22.395Z"
+              "WhenOpened": "2024-10-27T06:19:22.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 33,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
@@ -180,69 +614,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "PedidosController.cs",
-              "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\PedidosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
-              "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\PedidosController.cs",
-              "RelativeToolTip": "Controllers\\PedidosController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowCIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:10:45.158Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Produtos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produtos\\Index.cshtml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Produtos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Produtos\\Index.cshtml",
+              "ViewState": "AgIAAIYBAAAAAAAAAAAAAJABAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T06:09:10.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Produtos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Produtos\\Index.cshtml",
-              "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Produtos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Produtos\\Index.cshtml",
-              "ViewState": "AgIAAIsBAAAAAAAAAAAYwJsBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T06:09:10.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T05:53:36.839Z"
+              "WhenOpened": "2024-10-27T05:53:36.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 31,
               "Title": "Cadastro.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
               "ToolTip": "E:\\Projeto\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAIBJwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T04:38:10.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 32,
               "Title": "ProdutosController.cs",
-              "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\ProdutosController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
-              "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\ProdutosController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA9wB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T04:26:08.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 37,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
@@ -255,11 +678,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 27,
               "Title": "SegurancaController.cs",
-              "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\SegurancaController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\SegurancaController.cs",
               "RelativeDocumentMoniker": "Controllers\\SegurancaController.cs",
-              "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\SegurancaController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\SegurancaController.cs",
               "RelativeToolTip": "Controllers\\SegurancaController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAADUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -268,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 30,
               "Title": "Cadastro.xaml",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\Cadastro.xaml",
@@ -281,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 38,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
@@ -289,11 +712,12 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-26T22:00:08.535Z"
+              "WhenOpened": "2024-10-26T22:00:08.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 39,
               "Title": "SegurancaController.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
@@ -301,11 +725,12 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T04:47:15.592Z"
+              "WhenOpened": "2024-10-26T04:47:15.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 40,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarmingAPI\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\appsettings.json",
@@ -313,11 +738,12 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-26T04:46:57.48Z"
+              "WhenOpened": "2024-10-26T04:46:57.48Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 41,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarmingAPI\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\Program.cs",
@@ -325,11 +751,12 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\UrbanFarmingAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T04:46:56.853Z"
+              "WhenOpened": "2024-10-26T04:46:56.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 42,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
@@ -337,11 +764,12 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAIwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T04:37:05.741Z"
+              "WhenOpened": "2024-10-26T04:37:05.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 43,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarming.Mobile\\MainActivity.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarming.Mobile\\MainActivity.cs",
@@ -349,24 +777,12 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\UrbanFarming.Mobile\\MainActivity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABBwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T04:32:32.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestAPI.cs",
-              "DocumentMoniker": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Request\\RequestAPI.cs",
-              "RelativeDocumentMoniker": "Request\\RequestAPI.cs",
-              "ToolTip": "E:\\Projeto\\das\\UrbanProject\\UrbanFarmingWeb.UI\\Request\\RequestAPI.cs",
-              "RelativeToolTip": "Request\\RequestAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T04:28:46.694Z",
+              "WhenOpened": "2024-10-26T04:32:32.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 44,
               "Title": "UrbanFarming.Data.csproj",
               "DocumentMoniker": "E:\\Projeto\\UrbanFarmingProject\\UrbanFarming.Data\\UrbanFarming.Data.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\UrbanFarmingProject\\UrbanFarming.Data\\UrbanFarming.Data.csproj",
@@ -374,7 +790,8 @@
               "RelativeToolTip": "..\\..\\..\\UrbanFarmingProject\\UrbanFarming.Data\\UrbanFarming.Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-24T03:45:02.256Z"
+              "WhenOpened": "2024-10-24T03:45:02.256Z",
+              "EditorCaption": ""
             }
           ]
         }

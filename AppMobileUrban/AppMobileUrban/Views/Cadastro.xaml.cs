@@ -48,7 +48,9 @@ namespace AppMobileUrban.Views
                 Administrador = false
             };
 
-            await _request.EfetuarCadastro(cadastroModel);
+           _request.EfetuarCadastro(cadastroModel);
+
+           await Navigation.PushAsync(new LoginPage(new requests()));
 
         }
 

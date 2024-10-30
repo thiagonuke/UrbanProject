@@ -16,15 +16,23 @@ namespace UrbanFarming.Data.Context
             LoginMap.Map(modelBuilder);
             ProdutosMap.Map(modelBuilder);
             FornecedoresMap.Map(modelBuilder);
-            PedidosMap.Map(modelBuilder);
-            ItensPedidoMap.Map(modelBuilder);
+            //PedidosMap.Map(modelBuilder);
+            modelBuilder.Entity<Pedido>()
+            .HasKey(t => t.CodigoPedido);
+
+            modelBuilder.Entity<Pedido>()
+                .HasMany(p => p.Itens); 
+
+            //ItensPedidoMap.Map(modelBuilder);
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Login> Login { get; set; }
         public DbSet<Produtos> Produtos { get; set; }
         public DbSet<Fornecedores> Fornecedores { get; set; }
-        public DbSet<Pedido> Pedidos { get; set; }
-        public DbSet<ItemPedido> ItensPedido { get; set; } 
+        public DbSet<Pedido> PedidoLst { get; set; }
+
+        public DbSet<Pedidos> Pedidos { get; set; }
+        public DbSet<ItensPedido> ItensPedido { get; set; } 
     }
 }
