@@ -7,40 +7,36 @@ namespace UrbanFarming.Data.Mapping
     {
         public static void Map(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ItemPedido>()
+            modelBuilder.Entity<ItensPedido>()
                 .ToTable("ItensPedido");
 
-            modelBuilder.Entity<ItemPedido>()
-                .HasKey(i => i.IdItem);
+            modelBuilder.Entity<ItensPedido>()
+                .HasKey(i => i.CodigoPedido);
 
-            modelBuilder.Entity<ItemPedido>()
-                .Property(i => i.IdItem)
-                .HasColumnName("IdItem")
-                .IsRequired();
 
-            modelBuilder.Entity<ItemPedido>()
+            modelBuilder.Entity<ItensPedido>()
                 .Property(i => i.CodigoPedido)
                 .HasColumnName("CodigoPedido")
                 .IsRequired();
 
-            modelBuilder.Entity<ItemPedido>()
+            modelBuilder.Entity<ItensPedido>()
                 .Property(i => i.NomeProduto)
                 .HasColumnName("NomeProduto")
                 .IsRequired()
                 .HasMaxLength(255);
 
-            modelBuilder.Entity<ItemPedido>()
+            modelBuilder.Entity<ItensPedido>()
                 .Property(i => i.CodigoProduto)
                 .HasColumnName("CodigoProduto")
                 .IsRequired()
                 .HasMaxLength(50);
 
-            modelBuilder.Entity<ItemPedido>()
+            modelBuilder.Entity<ItensPedido>()
                 .Property(i => i.Quantidade)
                 .HasColumnName("Quantidade")
                 .IsRequired();
 
-            modelBuilder.Entity<ItemPedido>()
+            modelBuilder.Entity<ItensPedido>()
                 .Property(i => i.ValorUnitario)
                 .HasColumnName("ValorUnitario")
                 .IsRequired()

@@ -1,18 +1,33 @@
-﻿using System;
-using System.Windows.Input;
-using Xamarin.Essentials;
+﻿using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace AppMobileUrban.ViewModels
 {
     public class AboutViewModel : BaseViewModel
     {
+        public string Name { get; set; }
+        public bool IsAdmin { get; set; }
+
+        public ICommand CadastrarProdutoCommand { get; }
+
         public AboutViewModel()
         {
-            Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            if (Application.Current.Properties.ContainsKey("Nome"))
+            {
+                Name = Application.Current.Properties["Nome"].ToString();
+            }
+
+            if (Application.Current.Properties.ContainsKey("Administrador"))
+            {
+                IsAdmin = (bool)Application.Current.Properties["Administrador"];
+            }
+
+            CadastrarProdutoCommand = new Command(OnCadastrarProduto);
         }
 
-        public ICommand OpenWebCommand { get; }
+        private async void OnCadastrarProduto()
+        {
+            await Shell.Current.GoToAsync("CadastroProdutoPage");
+        }
     }
 }

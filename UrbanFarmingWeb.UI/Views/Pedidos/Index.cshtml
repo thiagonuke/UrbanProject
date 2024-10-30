@@ -1,4 +1,4 @@
-﻿
+﻿@model List<UrbanFarming.Domain.Classes.Pedido>
 <style>
 
     .container {
@@ -36,19 +36,37 @@
     <div class="container">
         <h1>Pedidos Feitos</h1>
         <hr />
-        <table id="tabelaPedidos" class="shadow-lg">
+        <table>
             <thead>
                 <tr>
                     <th>Código do Pedido</th>
                     <th>Valor Total</th>
                     <th>Usuário</th>
                     <th>Data</th>
-                    <th>ID Item</th>
+                    <th>Itens</th>
                 </tr>
             </thead>
             <tbody>
+                @foreach (var pedido in Model)
+                {
+                    <tr>
+                        <td>@pedido.CodigoPedido</td>
+                        <td>@pedido.ValorTotal</td>
+                        <td>@pedido.Usuario</td>
+                        <td>@pedido.Data.ToShortDateString()</td>
+                        <td>
+                            <ul>
+                                @foreach (var item in pedido.Itens)
+                                {
+                                    <li>
+                                        @item.NomeProduto - Código: @item.CodigoProduto, Quantidade: @item.Quantidade, Valor Unitário: @item.ValorUnitario
+                                    </li>
+                                }
+                            </ul>
+                        </td>
+                    </tr>
+                }
             </tbody>
-        </table>
     </div>
 
 </body>

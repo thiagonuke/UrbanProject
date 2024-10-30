@@ -395,10 +395,7 @@
         const pedido = {
             CodigoPedido: 0,
             ValorTotal: total,
-            Usuario: '"@ViewData["Nome"]"',
-            Data: new Date().toISOString(),
             Itens: cartItems.map(item => ({
-                IdItem: 0,
                 CodigoPedido: 0,
                 NomeProduto: item.name,
                 CodigoProduto: item.Codigo,
