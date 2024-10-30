@@ -31,6 +31,7 @@
             // 
             // FormPedido
             // 
+            BackColor = Color.Green;
             ClientSize = new Size(784, 461);
             Controls.Add(dataGridViewPedidos);
             Name = "FormPedido";

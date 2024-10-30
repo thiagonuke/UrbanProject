@@ -214,6 +214,7 @@ namespace UrbanFarmingDesktop.UI
             // 
             // FormFornecedor
             // 
+            BackColor = Color.Green;
             ClientSize = new Size(702, 441);
             Controls.Add(grupoTipoPessoa);
             Controls.Add(inputCodigo);
