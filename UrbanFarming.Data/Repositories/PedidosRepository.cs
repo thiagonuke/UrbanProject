@@ -4,6 +4,7 @@ using UrbanFarming.Domain.Classes;
 using UrbanFarming.Domain.Interfaces.Repositories;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 
 namespace UrbanFarming.Data.Repositories
 {
@@ -83,13 +84,28 @@ namespace UrbanFarming.Data.Repositories
 
                 foreach (var i in pedido.Itens)
                 {
+                    var sql = "INSERT INTO [dbo].[ItensPedido] ([CodigoPedido], [NomeProduto], [CodigoProduto], [Quantidade], [ValorUnitario]) " +
+                              "VALUES (@CodigoPedido, @NomeProduto, @CodigoProduto, @Quantidade, @ValorUnitario)";
 
-                    _context.Database.ExecuteSqlRaw(
-                        $"INSERT INTO [dbo].[ItensPedido] ([CodigoPedido], [NomeProduto], [CodigoProduto], [Quantidade], [ValorUnitario]) " +
-                        $"VALUES ({pedido.CodigoPedido}, '{i.NomeProduto}', '{i.CodigoProduto}', {i.Quantidade}, {i.ValorUnitario})");
+                    var command = _context.Database.GetDbConnection().CreateCommand();
+                    command.CommandText = sql;
 
+                    command.Parameters.Add(new SqlParameter("@CodigoPedido", pedido.CodigoPedido));
+                    command.Parameters.Add(new SqlParameter("@NomeProduto", i.NomeProduto));
+                    command.Parameters.Add(new SqlParameter("@CodigoProduto", i.CodigoProduto));
+                    command.Parameters.Add(new SqlParameter("@Quantidade", i.Quantidade));
+                    command.Parameters.Add(new SqlParameter("@ValorUnitario", i.ValorUnitario));
+
+                    _context.Database.OpenConnection();
+                    try
+                    {
+                        command.ExecuteNonQuery();
+                    }
+                    finally
+                    {
+                        _context.Database.CloseConnection();
+                    }
                 }
-
 
                 return true;
             }

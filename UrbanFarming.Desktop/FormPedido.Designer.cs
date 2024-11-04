@@ -3,12 +3,12 @@
     partial class FormPedido
     {
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.DataGridView dataGridViewProdutos;
-        private System.Windows.Forms.Button buttonAdicionarAoCarrinho;
-        private System.Windows.Forms.DataGridView dataGridViewCarrinho;
-        private System.Windows.Forms.Button buttonFinalizarCompra;
-        private System.Windows.Forms.Label labelTotal;
-        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.ComboBox comboBoxProdutos;
+        private System.Windows.Forms.TextBox textBoxQuantidade;
+        private System.Windows.Forms.Button buttonAdicionar;
+        private System.Windows.Forms.DataGridView dataGridViewItens;
+        private System.Windows.Forms.Button buttonFinalizarPedido;
+        private System.Windows.Forms.Label labelValorTotal;
 
         protected override void Dispose(bool disposing)
         {
@@ -21,85 +21,82 @@
 
         private void InitializeComponent()
         {
-            dataGridViewProdutos = new System.Windows.Forms.DataGridView();
-            buttonAdicionarAoCarrinho = new System.Windows.Forms.Button();
-            dataGridViewCarrinho = new System.Windows.Forms.DataGridView();
-            buttonFinalizarCompra = new System.Windows.Forms.Button();
-            labelTotal = new System.Windows.Forms.Label();
-            textBoxTotal = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewProdutos).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewCarrinho).BeginInit();
+            comboBoxProdutos = new ComboBox();
+            textBoxQuantidade = new TextBox();
+            buttonAdicionar = new Button();
+            dataGridViewItens = new DataGridView();
+            buttonFinalizarPedido = new Button();
+            labelValorTotal = new Label();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewItens).BeginInit();
             SuspendLayout();
             // 
-            // dataGridViewProdutos
+            // comboBoxProdutos
             // 
-            dataGridViewProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewProdutos.Location = new System.Drawing.Point(12, 12);
-            dataGridViewProdutos.Name = "dataGridViewProdutos";
-            dataGridViewProdutos.ReadOnly = true;
-            dataGridViewProdutos.Size = new System.Drawing.Size(360, 400);
-            dataGridViewProdutos.TabIndex = 0;
+            comboBoxProdutos.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxProdutos.FormattingEnabled = true;
+            comboBoxProdutos.Location = new Point(12, 12);
+            comboBoxProdutos.Name = "comboBoxProdutos";
+            comboBoxProdutos.Size = new Size(200, 23);
+            comboBoxProdutos.TabIndex = 0;
             // 
-            // buttonAdicionarAoCarrinho
+            // textBoxQuantidade
             // 
-            buttonAdicionarAoCarrinho.Location = new System.Drawing.Point(378, 12);
-            buttonAdicionarAoCarrinho.Name = "buttonAdicionarAoCarrinho";
-            buttonAdicionarAoCarrinho.Size = new System.Drawing.Size(150, 30);
-            buttonAdicionarAoCarrinho.TabIndex = 1;
-            buttonAdicionarAoCarrinho.Text = "Adicionar ao Carrinho";
-            buttonAdicionarAoCarrinho.UseVisualStyleBackColor = true;
-            buttonAdicionarAoCarrinho.Click += ButtonAdicionarAoCarrinho_Click;
+            textBoxQuantidade.Location = new Point(230, 12);
+            textBoxQuantidade.Name = "textBoxQuantidade";
+            textBoxQuantidade.Size = new Size(100, 23);
+            textBoxQuantidade.TabIndex = 1;
             // 
-            // dataGridViewCarrinho
+            // buttonAdicionar
             // 
-            dataGridViewCarrinho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCarrinho.Location = new System.Drawing.Point(12, 418);
-            dataGridViewCarrinho.Name = "dataGridViewCarrinho";
-            dataGridViewCarrinho.ReadOnly = true;
-            dataGridViewCarrinho.Size = new System.Drawing.Size(360, 200);
-            dataGridViewCarrinho.TabIndex = 2;
+            buttonAdicionar.Location = new Point(340, 10);
+            buttonAdicionar.Name = "buttonAdicionar";
+            buttonAdicionar.Size = new Size(75, 25);
+            buttonAdicionar.TabIndex = 2;
+            buttonAdicionar.Text = "Adicionar";
+            buttonAdicionar.UseVisualStyleBackColor = true;
+            buttonAdicionar.Click += buttonAdicionar_Click;
             // 
-            // buttonFinalizarCompra
+            // dataGridViewItens
             // 
-            buttonFinalizarCompra.Location = new System.Drawing.Point(378, 418);
-            buttonFinalizarCompra.Name = "buttonFinalizarCompra";
-            buttonFinalizarCompra.Size = new System.Drawing.Size(150, 30);
-            buttonFinalizarCompra.TabIndex = 3;
-            buttonFinalizarCompra.Text = "Finalizar Compra";
-            buttonFinalizarCompra.UseVisualStyleBackColor = true;
-            buttonFinalizarCompra.Click += ButtonFinalizarCompra_Click;
+            dataGridViewItens.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewItens.Location = new Point(12, 50);
+            dataGridViewItens.Name = "dataGridViewItens";
+            dataGridViewItens.ReadOnly = true;
+            dataGridViewItens.Size = new Size(760, 300);
+            dataGridViewItens.TabIndex = 3;
             // 
-            // labelTotal
+            // buttonFinalizarPedido
             // 
-            labelTotal.AutoSize = true;
-            labelTotal.Location = new System.Drawing.Point(378, 460);
-            labelTotal.Name = "labelTotal";
-            labelTotal.Size = new System.Drawing.Size(38, 15);
-            labelTotal.TabIndex = 4;
-            labelTotal.Text = "Total:";
+            buttonFinalizarPedido.Location = new Point(12, 370);
+            buttonFinalizarPedido.Name = "buttonFinalizarPedido";
+            buttonFinalizarPedido.Size = new Size(200, 30);
+            buttonFinalizarPedido.TabIndex = 4;
+            buttonFinalizarPedido.Text = "Finalizar Pedido";
+            buttonFinalizarPedido.UseVisualStyleBackColor = true;
+            buttonFinalizarPedido.Click += buttonFinalizarPedido_Click;
             // 
-            // textBoxTotal
+            // labelValorTotal
             // 
-            textBoxTotal.Location = new System.Drawing.Point(422, 457);
-            textBoxTotal.Name = "textBoxTotal";
-            textBoxTotal.ReadOnly = true;
-            textBoxTotal.Size = new System.Drawing.Size(100, 23);
-            textBoxTotal.TabIndex = 5;
+            labelValorTotal.AutoSize = true;
+            labelValorTotal.Location = new Point(230, 375);
+            labelValorTotal.Name = "labelValorTotal";
+            labelValorTotal.Size = new Size(84, 15);
+            labelValorTotal.TabIndex = 5;
+            labelValorTotal.Text = "Valor Total: R$ 0,00";
             // 
             // FormPedido
             // 
-            BackColor = System.Drawing.Color.LightGreen;
-            ClientSize = new System.Drawing.Size(540, 630);
-            Controls.Add(textBoxTotal);
-            Controls.Add(labelTotal);
-            Controls.Add(buttonFinalizarCompra);
-            Controls.Add(dataGridViewCarrinho);
-            Controls.Add(buttonAdicionarAoCarrinho);
-            Controls.Add(dataGridViewProdutos);
+            BackColor = Color.Green;
+            ClientSize = new Size(784, 461);
+            Controls.Add(labelValorTotal);
+            Controls.Add(buttonFinalizarPedido);
+            Controls.Add(dataGridViewItens);
+            Controls.Add(buttonAdicionar);
+            Controls.Add(textBoxQuantidade);
+            Controls.Add(comboBoxProdutos);
             Name = "FormPedido";
             Text = "Fazer Pedido";
-            ((System.ComponentModel.ISupportInitialize)dataGridViewProdutos).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewCarrinho).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewItens).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
