@@ -18,12 +18,16 @@ namespace UrbanFarming.Data.Context
             FornecedoresMap.Map(modelBuilder);
             //PedidosMap.Map(modelBuilder);
             modelBuilder.Entity<Pedido>()
-            .HasKey(t => t.CodigoPedido);
+            .HasKey(t => t.CodigoPedido);  
 
-            modelBuilder.Entity<Pedido>()
-                .HasMany(p => p.Itens); 
+            modelBuilder.Entity<ItensPedido>().HasNoKey();
+
+            //modelBuilder.Entity<Pedido>()
+            //    .HasMany(p => p.Itens); 
 
             //ItensPedidoMap.Map(modelBuilder);
+
+
             base.OnModelCreating(modelBuilder);
         }
 
@@ -31,7 +35,6 @@ namespace UrbanFarming.Data.Context
         public DbSet<Produtos> Produtos { get; set; }
         public DbSet<Fornecedores> Fornecedores { get; set; }
         public DbSet<Pedido> PedidoLst { get; set; }
-
         public DbSet<Pedidos> Pedidos { get; set; }
         public DbSet<ItensPedido> ItensPedido { get; set; } 
     }
