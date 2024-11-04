@@ -17,7 +17,7 @@ namespace UrbanFarming.Data.Mapping
                 .Property(p => p.Codigo)
                 .HasColumnName("Codigo")
                 .HasMaxLength(20)
-                .IsRequired();
+                .ValueGeneratedOnAdd();
 
             modelBuilder    .Entity<Fornecedores>()
                 .Property(x => x.RazaoSocial)

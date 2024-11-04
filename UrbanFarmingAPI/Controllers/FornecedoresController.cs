@@ -35,7 +35,7 @@ namespace UrbanFarmingAPI.Controllers
         }
 
         [HttpGet("{codigo}")]
-        public async Task<IActionResult> GetByCodigo(string codigo)
+        public async Task<IActionResult> GetByCodigo(int codigo)
         {
             try
             {
@@ -74,7 +74,7 @@ namespace UrbanFarmingAPI.Controllers
         }
 
         [HttpDelete("{codigo}")]
-        public async Task<IActionResult> DeleteFornecedor(string codigo)
+        public async Task<IActionResult> DeleteFornecedor(int codigo)
         {
             var sucesso = await _fornecedoresService.DeleteFornecedor(codigo);
 
