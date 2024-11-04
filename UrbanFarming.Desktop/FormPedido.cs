@@ -1,41 +1,94 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
+using UrbanFarmingWeb.UI.Request;
+using UrbanFarming.Domain.Classes;
 
 namespace UrbanFarmingDesktop.UI
 {
     public partial class FormPedido : Form
     {
+        private readonly RequestAPI _requestAPI;
+        private List<Produtos> _produtos;
+        private List<Produtos> _carrinho;
+
         public FormPedido()
         {
             InitializeComponent();
-            CarregarPedidos();
+            var httpClient = new HttpClient();
+            _requestAPI = new RequestAPI(httpClient);
+            _carrinho = new List<Produtos>();
+            CarregarProdutos();
         }
 
-        private void CarregarPedidos()
+        private async void CarregarProdutos()
         {
-            var pedidos = ObterPedidos();
-            dataGridViewPedidos.DataSource = pedidos;
-        }
-
-        private List<Pedido> ObterPedidos()
-        {
-            return new List<Pedido>
+            try
             {
-                new Pedido { CodigoPedido = 101, ValorTotal = 250.75m, Usuario = "usuario1", Data = DateTime.Parse("2024-10-10"), IdItem = 1 },
-                new Pedido { CodigoPedido = 102, ValorTotal = 150.00m, Usuario = "usuario2", Data = DateTime.Parse("2024-10-11"), IdItem = 2 },
-                new Pedido { CodigoPedido = 103, ValorTotal = 320.50m, Usuario = "usuario3", Data = DateTime.Parse("2024-10-12"), IdItem = 3 },
-                new Pedido { CodigoPedido = 104, ValorTotal = 99.99m, Usuario = "usuario4", Data = DateTime.Parse("2024-10-13"), IdItem = 4 }
-            };
+                _produtos = await _requestAPI.ListaProdutos();
+                dataGridViewProdutos.DataSource = _produtos;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao carregar produtos: {ex.Message}");
+            }
         }
-    }
 
-    public class Pedido
-    {
-        public int CodigoPedido { get; set; }
-        public decimal ValorTotal { get; set; }
-        public string Usuario { get; set; }
-        public DateTime Data { get; set; }
-        public int IdItem { get; set; }
+        private void ButtonAdicionarAoCarrinho_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewProdutos.CurrentRow != null)
+            {
+                var produtoSelecionado = (Produtos)dataGridViewProdutos.CurrentRow.DataBoundItem;
+                _carrinho.Add(produtoSelecionado);
+                dataGridViewCarrinho.DataSource = _carrinho.ToList();
+                CalcularTotal();
+            }
+            else
+            {
+                MessageBox.Show("Selecione um produto para adicionar ao carrinho.");
+            }
+        }
+
+        private void CalcularTotal()
+        {
+            decimal total = _carrinho.Sum(p => p.Valor);
+            textBoxTotal.Text = total.ToString("C2");
+        }
+
+        private async void ButtonFinalizarCompra_Click(object sender, EventArgs e)
+        {
+            if (_carrinho.Count == 0)
+            {
+                MessageBox.Show("O carrinho está vazio.");
+                return;
+            }
+
+            var pedido = new Pedido
+            {
+                // Aqui você pode definir como está montando o pedido
+                // Ex: ValorTotal, Usuario, etc.
+            };
+
+            try
+            {
+                var response = await _requestAPI.EfetuarCadastradoPedido(pedido);
+                if (response.IsSuccessStatusCode)
+                {
+                    MessageBox.Show("Compra finalizada com sucesso!");
+                    _carrinho.Clear();
+                    dataGridViewCarrinho.DataSource = null;
+                    textBoxTotal.Clear();
+                }
+                else
+                {
+                    MessageBox.Show($"Erro ao finalizar compra: {response.ReasonPhrase}");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro: {ex.Message}");
+            }
+        }
     }
 }

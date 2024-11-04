@@ -14,19 +14,25 @@ namespace UrbanFarming.Desktop
         private void buttonProduto_Click(object sender, EventArgs e)
         {
             FormProduto formProduto = new FormProduto();
-            formProduto.Show(); 
+            formProduto.Show();
         }
 
         private void buttonPedido_Click(object sender, EventArgs e)
         {
             FormPedido formPedido = new FormPedido();
-            formPedido.Show(); 
+            formPedido.Show();
+        }
+
+        private void buttonListaPedidos_Click(object sender, EventArgs e)
+        {
+            FormListaPedidos formListaPedidos = new FormListaPedidos();
+            formListaPedidos.Show();
         }
 
         private void buttonFornecedor_Click(object sender, EventArgs e)
         {
             FormFornecedor formFornecedor = new FormFornecedor();
-            formFornecedor.Show(); 
+            formFornecedor.Show();
         }
     }
 }
