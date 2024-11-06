@@ -3,6 +3,49 @@
   "WorkspaceRootPath": "C:\\Projetos\\UrbanProject\\UrbanFarmingWeb.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formfornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|c:\\projetos\\urbanproject\\urbanfarmingweb.ui\\request\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:request\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formadm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formdelprodutos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formdelprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\helpers\\sessaousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formlistapedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,14 +64,7 @@
       "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formlistapedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|c:\\projetos\\urbanproject\\urbanfarmingweb.ui\\request\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:request\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|c:\\projetos\\urbanproject\\urbanfarmingapi\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formfornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF2B155E-87B1-4B27-93A5-0459715DCB63}|..\\UrbanFarming.Domain\\UrbanFarming.Domain.csproj|c:\\projetos\\urbanproject\\urbanfarming.domain\\classes\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -61,9 +97,6 @@
       "AbsoluteMoniker": "D:0:0:{531C74E4-B078-47AE-AE18-DBD4CD276E44}|..\\UrbanFarming.Data\\UrbanFarming.Data.csproj|c:\\projetos\\urbanproject\\urbanfarming.data\\repositories\\pedidosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formproduto.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -71,16 +104,10 @@
       "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formpedido.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\projetos\\urbanproject\\urbanfarming.desktop\\formproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
@@ -100,11 +127,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 155,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "FormDelProdutos.Designer.cs",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormDelProdutos.Designer.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormDelProdutos.Designer.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormDelProdutos.Designer.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormDelProdutos.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:05:27.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAdm.cs",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormAdm.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormAdm.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormAdm.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormAdm.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:03:08.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAdm.Designer.cs",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormAdm.Designer.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormAdm.Designer.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormAdm.Designer.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormAdm.Designer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:03:05.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormAdm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormAdm.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormAdm.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormAdm.cs [Projeto]",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormAdm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:14:55.52Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormDelProdutos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormDelProdutos.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormDelProdutos.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormDelProdutos.cs [Projeto]",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormDelProdutos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:14:43.285Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormMenu.cs [Projeto]",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormMenu.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs [Projeto]",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormMenu.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:08:48.856Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SessaoUsuario.cs",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\Helpers\\SessaoUsuario.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\Helpers\\SessaoUsuario.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\Helpers\\SessaoUsuario.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\Helpers\\SessaoUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:07:06.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\Login.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\Login.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\Login.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\Login.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:02:57.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\Login.Designer.cs",
+              "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\Login.Designer.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\Login.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:02:53.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "FormItensPedido.Designer.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormItensPedido.Designer.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormItensPedido.Designer.cs",
@@ -112,12 +253,11 @@
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormItensPedido.Designer.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:39:22.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:39:22.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "FormItensPedido.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormItensPedido.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormItensPedido.cs",
@@ -130,19 +270,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "FormItensPedido.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormItensPedido.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormItensPedido.cs",
               "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormItensPedido.cs [Projeto]",
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormItensPedido.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:39:15.98Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-04T08:39:15.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "IFornecedoresService.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Domain\\Interfaces\\Services\\IFornecedoresService.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Domain\\Interfaces\\Services\\IFornecedoresService.cs",
@@ -150,12 +289,11 @@
               "RelativeToolTip": "..\\UrbanFarming.Domain\\Interfaces\\Services\\IFornecedoresService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:23:43.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:23:43.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "FornecedoresService.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Service\\AppService\\FornecedoresService.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Service\\AppService\\FornecedoresService.cs",
@@ -163,12 +301,11 @@
               "RelativeToolTip": "..\\UrbanFarming.Service\\AppService\\FornecedoresService.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAlwD4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:22:40.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:22:40.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "IFornecedoresRepository.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Domain\\Interfaces\\Repositories\\IFornecedoresRepository.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Domain\\Interfaces\\Repositories\\IFornecedoresRepository.cs",
@@ -176,12 +313,11 @@
               "RelativeToolTip": "..\\UrbanFarming.Domain\\Interfaces\\Repositories\\IFornecedoresRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:21:40.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:21:40.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "FornecedoresMap.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Data\\Mapping\\FornecedoresMap.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Mapping\\FornecedoresMap.cs",
@@ -189,12 +325,11 @@
               "RelativeToolTip": "..\\UrbanFarming.Data\\Mapping\\FornecedoresMap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:15:04.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:15:04.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "FornecedoresRepository.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Data\\Repositories\\FornecedoresRepository.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Repositories\\FornecedoresRepository.cs",
@@ -207,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Fornecedores.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Domain\\Classes\\Fornecedores.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Domain\\Classes\\Fornecedores.cs",
@@ -215,12 +350,11 @@
               "RelativeToolTip": "..\\UrbanFarming.Domain\\Classes\\Fornecedores.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:11:07.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:11:07.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "FormFornecedor.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormFornecedor.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormFornecedor.cs",
@@ -232,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "FornecedoresController.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
@@ -245,20 +379,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "FormFornecedor.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormFornecedor.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormFornecedor.cs",
               "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormFornecedor.cs",
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormFornecedor.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T08:01:54.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "FormFornecedor.Designer.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormFornecedor.Designer.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormFornecedor.Designer.cs",
@@ -271,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "PedidosRepository.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
@@ -284,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
@@ -292,37 +426,37 @@
               "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwBMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:43:02.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T07:43:02.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 0,
               "Title": "FormMenu.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormMenu.cs",
               "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs",
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormMenu.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T07:39:40.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 10,
               "Title": "FormMenu.Designer.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.Designer.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormMenu.Designer.cs",
               "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.Designer.cs",
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormMenu.Designer.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAowFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:39:34.336Z"
+              "WhenOpened": "2024-11-04T07:39:34.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "FormListaPedidos.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormListaPedidos.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormListaPedidos.cs",
@@ -335,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "FormListaPedidos.Designer.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormListaPedidos.Designer.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormListaPedidos.Designer.cs",
@@ -343,37 +477,35 @@
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormListaPedidos.Designer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:39:19.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T07:39:19.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "FormListaPedidos.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormListaPedidos.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormListaPedidos.cs",
               "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormListaPedidos.cs [Projeto]",
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormListaPedidos.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:38:56.987Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-04T07:38:56.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "RequestAPI.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarmingWeb.UI\\Request\\RequestAPI.cs",
               "RelativeDocumentMoniker": "Request\\RequestAPI.cs",
               "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarmingWeb.UI\\Request\\RequestAPI.cs",
               "RelativeToolTip": "Request\\RequestAPI.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T07:30:30.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "FormProduto.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormProduto.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormProduto.cs",
@@ -386,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "FormProduto.Designer.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormProduto.Designer.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormProduto.Designer.cs",
@@ -394,25 +526,24 @@
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormProduto.Designer.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAowJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:28:10.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T07:28:10.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "FormPedido.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormPedido.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormPedido.cs",
               "ToolTip": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormPedido.cs",
               "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormPedido.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowFgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T07:28:04.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "FormPedido.Designer.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormPedido.Designer.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormPedido.Designer.cs",
@@ -424,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarmingWeb.UI\\Views\\Produtos\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Produtos\\Index.cshtml",
@@ -436,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
@@ -449,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "FormProduto.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormProduto.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormProduto.cs",
@@ -460,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "FormPedido.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\UrbanProject\\UrbanFarming.Desktop\\FormPedido.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormPedido.cs",
