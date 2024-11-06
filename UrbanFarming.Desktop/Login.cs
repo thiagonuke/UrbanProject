@@ -36,6 +36,8 @@ namespace UrbanFarmingDesktop.UI
 
                     if (loginResponse != null && loginResponse.Id != 0)
                     {
+                        SessaoUsuario.UsuarioLogado = loginResponse;
+
                         FormMenu formMenu = new FormMenu();
                         formMenu.Show();
                         this.Hide();
