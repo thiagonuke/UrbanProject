@@ -7,10 +7,18 @@ namespace AppMobileUrban.Views
 {
     public partial class PedidosPage : ContentPage
     {
+        private PedidosViewModel viewModel;
         public PedidosPage()
         {
             InitializeComponent();
-            BindingContext = new PedidosViewModel();
+            viewModel = new PedidosViewModel(); 
+            BindingContext = viewModel;
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await viewModel.CarregarPedidosAsync(); 
         }
     }
 }

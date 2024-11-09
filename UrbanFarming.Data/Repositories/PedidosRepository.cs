@@ -83,11 +83,17 @@ namespace UrbanFarming.Data.Repositories
 
                 foreach (var i in pedido.Itens)
                 {
+                    string query = String.Format(
+                                "INSERT INTO [dbo].[ItensPedido] ([CodigoPedido], [NomeProduto], [CodigoProduto], [Quantidade], [ValorUnitario]) " +
+                                 "VALUES ({0}, '{1}', '{2}', {3}, {4})",
+                                 pedido.CodigoPedido,
+                                 i.NomeProduto,
+                                 i.CodigoProduto,
+                                 i.Quantidade,
+                                 i.ValorUnitario.ToString(System.Globalization.CultureInfo.InvariantCulture) // Garante o ponto decimal
+                             );
 
-                    _context.Database.ExecuteSqlRaw(
-                        $"INSERT INTO [dbo].[ItensPedido] ([CodigoPedido], [NomeProduto], [CodigoProduto], [Quantidade], [ValorUnitario]) " +
-                        $"VALUES ({pedido.CodigoPedido}, '{i.NomeProduto}', '{i.CodigoProduto}', {i.Quantidade}, {i.ValorUnitario})");
-
+                     _context.Database.ExecuteSqlRaw(query);
                 }
 
 

@@ -21,39 +21,48 @@
                 <Entry Placeholder="Digite o Código"
                        TextColor="White"
                        PlaceholderColor="white"
-                       Keyboard="Numeric"
+                       Keyboard="Text"
                        x:Name="CodigoEntry" />
 
+                <!-- Switch para alternar entre PJ e PF -->
+                <Label Text="Pessoa Jurídica" FontAttributes="Bold" TextColor="White" />
+                <Switch x:Name="PessoaSwitch" Toggled="OnPessoaSwitchToggled" />
+
                 <!-- Campo CNPJ -->
-                <Label Text="CNPJ" FontAttributes="Bold" TextColor="White" />
+                <Label Text="CNPJ/CPF" FontAttributes="Bold" TextColor="White" IsVisible="True" x:Name="CnpjLabel" />
                 <Entry Placeholder="Digite o CNPJ"
                        TextColor="White"
                        PlaceholderColor="white"
                        Keyboard="Numeric"
-                       x:Name="CnpjEntry" />
+                       x:Name="CnpjEntry" IsVisible="True" />
 
-                <!-- Campo Razão Social -->
+                <!-- Campo CPF -->
+                <Label Text="CPF" FontAttributes="Bold" TextColor="White" IsVisible="False" x:Name="CpfLabel" />
+                <Entry Placeholder="Digite o CPF"
+                       TextColor="White"
+                       PlaceholderColor="white"
+                       Keyboard="Numeric"
+                       x:Name="CpfEntry" IsVisible="False" />
+
+                <!-- Demais campos -->
                 <Label Text="Razão Social" FontAttributes="Bold" TextColor="White" />
                 <Entry Placeholder="Digite a Razão Social"
                        TextColor="White"
                        PlaceholderColor="white"
                        x:Name="RazaoSocialEntry" />
 
-                <!-- Campo Nome Fantasia -->
                 <Label Text="Nome Fantasia" FontAttributes="Bold" TextColor="White" />
                 <Entry Placeholder="Digite o Nome Fantasia"
                        TextColor="White"
                        PlaceholderColor="white"
                        x:Name="NomeFantasiaEntry" />
 
-                <!-- Campo Enquadramento Estadual -->
                 <Label Text="Enquadramento Estadual" FontAttributes="Bold" TextColor="White" />
                 <Entry Placeholder="Digite o Enquadramento Estadual"
                        TextColor="White"
                        PlaceholderColor="white"
                        x:Name="EnquadramentoEntry" />
 
-                <!-- Campo Email -->
                 <Label Text="Email" FontAttributes="Bold" TextColor="White" />
                 <Entry Placeholder="Digite o Email"
                        TextColor="White"
@@ -61,30 +70,6 @@
                        Keyboard="Email"
                        x:Name="EmailEntry" />
 
-                <!-- Campo Telefone -->
-                <Label Text="Telefone" FontAttributes="Bold" TextColor="White" />
-                <Entry Placeholder="Digite o Telefone"
-                       TextColor="White"
-                       PlaceholderColor="white"
-                       Keyboard="Telephone"
-                       x:Name="TelefoneEntry" />
-
-                <!-- Campo Endereço -->
-                <Label Text="Endereço" FontAttributes="Bold" TextColor="White" />
-                <Entry Placeholder="Digite o Endereço"
-                       TextColor="White"
-                       PlaceholderColor="white"
-                       x:Name="EnderecoEntry" />
-
-                <!-- Campo CEP -->
-                <Label Text="CEP" FontAttributes="Bold" TextColor="White" />
-                <Entry Placeholder="Digite o CEP"
-                       TextColor="White"
-                       PlaceholderColor="white"
-                       Keyboard="Numeric"
-                       x:Name="CepEntry" />
-
-                <!-- Campo País de Origem -->
                 <Label Text="País de Origem" FontAttributes="Bold" TextColor="White" />
                 <Entry Placeholder="Digite o País de Origem"
                        TextColor="White"
@@ -98,7 +83,7 @@
                         CornerRadius="10"
                         HorizontalOptions="Center"
                         Clicked="OnCadastrarClicked" />
-                <!-- Evento do botão -->
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

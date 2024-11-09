@@ -1,23 +1,70 @@
 ﻿using AppMobileUrban.Models;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+using RestSharp;
+using System.Collections.Generic;
 
 namespace AppMobileUrban.ViewModels
 {
-    public class PedidosViewModel
+    public class PedidosViewModel : BindableObject
     {
-        public ObservableCollection<Pedido> Pedidos { get; set; }
+        private RestClient client = new RestClient("http://10.0.2.2:5152");
+
+        private ObservableCollection<Pedido> pedidos;
+        public ObservableCollection<Pedido> Pedidos
+        {
+            get => pedidos;
+            set
+            {
+                pedidos = value;
+                OnPropertyChanged();
+            }
+        }
 
         public PedidosViewModel()
         {
-            Pedidos = new ObservableCollection<Pedido>
+            Pedidos = new ObservableCollection<Pedido>();
+            LoadPedidos();
+        }
+
+        private async void LoadPedidos()
+        {
+            try
             {
-                new Pedido { CodigoPedido = 1, ValorTotal = 100.00m, Usuario = "João", Data = DateTime.Now },
-                new Pedido { CodigoPedido = 2, ValorTotal = 150.50m, Usuario = "Maria", Data = DateTime.Now.AddDays(-1) },
-                new Pedido { CodigoPedido = 3, ValorTotal = 200.75m, Usuario = "Carlos", Data = DateTime.Now.AddDays(-2) }
-            };
+                var request = new RestRequest("/api/Pedidos", Method.Get);
+                request.AddHeader("Content-Type", "application/json");
+
+                var response = await client.ExecuteAsync<List<Pedido>>(request);
+
+                if (response.IsSuccessful && response.Data != null)
+                {
+                    Pedidos = new ObservableCollection<Pedido>(response.Data);
+                }
+                else
+                {
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        public async Task CarregarPedidosAsync()
+        {
+            var request = new RestRequest("/api/Pedidos", Method.Get);
+            request.AddHeader("Content-Type", "application/json");
+
+            var response = await client.ExecuteAsync<List<Pedido>>(request);
+            if (response.IsSuccessful)
+            {
+                Pedidos.Clear();
+                foreach (var pedido in response.Data)
+                {
+                    Pedidos.Add(pedido);
+                }
+            }
         }
     }
 }

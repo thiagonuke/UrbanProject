@@ -17,6 +17,7 @@ using Newtonsoft.Json;
 using AppMobileUrban.Models;
 
 using System.Resources;
+using System.Collections.ObjectModel;
 
 namespace AppMobileUrban.Views
 {
@@ -46,6 +47,14 @@ namespace AppMobileUrban.Views
 
             try
             {
+                if (Application.Current.Properties.ContainsKey("Carrinho"))
+                {
+                    var serializedCarrinho = Application.Current.Properties["Carrinho"] as string;
+                    if (!string.IsNullOrEmpty(serializedCarrinho))
+                    {
+                        Application.Current.Properties["Carrinho"] = "";
+                    }
+                }
 
                 var loginResponse = await _request.EfetuarLogin(email, senha);
 

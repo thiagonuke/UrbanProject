@@ -4,6 +4,6 @@
     <SelectedDevice>pixel_5_-_api_30</SelectedDevice>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <ActiveDebugProfile>Pixel 5 - API 30 %28Android 11.0 – API 30%29</ActiveDebugProfile>
-    <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
+    <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
   </PropertyGroup>
 </Project>
