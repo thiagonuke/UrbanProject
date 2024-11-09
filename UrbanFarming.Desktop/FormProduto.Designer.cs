@@ -50,7 +50,7 @@
             // 
             // textBoxCodigo
             // 
-            textBoxCodigo.Location = new Point(100, 20);
+            textBoxCodigo.Location = new Point(141, 20);
             textBoxCodigo.Name = "textBoxCodigo";
             textBoxCodigo.Size = new Size(200, 23);
             textBoxCodigo.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             // textBoxNome
             // 
-            textBoxNome.Location = new Point(100, 60);
+            textBoxNome.Location = new Point(141, 60);
             textBoxNome.Name = "textBoxNome";
             textBoxNome.Size = new Size(200, 23);
             textBoxNome.TabIndex = 3;
@@ -74,7 +74,7 @@
             // labelValor
             // 
             labelValor.AutoSize = true;
-            labelValor.Location = new Point(20, 100);
+            labelValor.Location = new Point(20, 103);
             labelValor.Name = "labelValor";
             labelValor.Size = new Size(36, 15);
             labelValor.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             // textBoxValor
             // 
-            textBoxValor.Location = new Point(100, 100);
+            textBoxValor.Location = new Point(141, 100);
             textBoxValor.Name = "textBoxValor";
             textBoxValor.Size = new Size(200, 23);
             textBoxValor.TabIndex = 5;
@@ -90,7 +90,7 @@
             // labelDescricao
             // 
             labelDescricao.AutoSize = true;
-            labelDescricao.Location = new Point(20, 140);
+            labelDescricao.Location = new Point(20, 143);
             labelDescricao.Name = "labelDescricao";
             labelDescricao.Size = new Size(61, 15);
             labelDescricao.TabIndex = 6;
@@ -98,7 +98,7 @@
             // 
             // textBoxDescricao
             // 
-            textBoxDescricao.Location = new Point(100, 140);
+            textBoxDescricao.Location = new Point(141, 140);
             textBoxDescricao.Multiline = true;
             textBoxDescricao.Name = "textBoxDescricao";
             textBoxDescricao.Size = new Size(200, 60);
@@ -107,7 +107,7 @@
             // labelLinkImagem
             // 
             labelLinkImagem.AutoSize = true;
-            labelLinkImagem.Location = new Point(20, 220);
+            labelLinkImagem.Location = new Point(20, 223);
             labelLinkImagem.Name = "labelLinkImagem";
             labelLinkImagem.Size = new Size(95, 15);
             labelLinkImagem.TabIndex = 8;
@@ -115,14 +115,14 @@
             // 
             // textBoxLinkImagem
             // 
-            textBoxLinkImagem.Location = new Point(100, 220);
+            textBoxLinkImagem.Location = new Point(141, 220);
             textBoxLinkImagem.Name = "textBoxLinkImagem";
             textBoxLinkImagem.Size = new Size(200, 23);
             textBoxLinkImagem.TabIndex = 9;
             // 
             // buttonCadastrar
             // 
-            buttonCadastrar.Location = new Point(100, 260);
+            buttonCadastrar.Location = new Point(95, 266);
             buttonCadastrar.Name = "buttonCadastrar";
             buttonCadastrar.Size = new Size(200, 30);
             buttonCadastrar.TabIndex = 10;
@@ -133,7 +133,7 @@
             // FormProduto
             // 
             BackColor = Color.Green;
-            ClientSize = new Size(320, 320);
+            ClientSize = new Size(391, 320);
             Controls.Add(labelCodigo);
             Controls.Add(textBoxCodigo);
             Controls.Add(labelNome);

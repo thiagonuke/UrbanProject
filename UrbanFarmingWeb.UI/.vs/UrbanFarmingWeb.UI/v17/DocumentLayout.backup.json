@@ -3,7 +3,13 @@
   "WorkspaceRootPath": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\cadastroprodutopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\viewmodels\\itemsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\aboutpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
@@ -26,9 +32,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\viewmodels\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\fornecedorpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
@@ -74,9 +77,6 @@
       "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\cadastroprodutopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
@@ -90,11 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CarrinhoPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CarrinhoPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CarrinhoPage.xaml.cs",
@@ -121,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CarrinhoPage.xaml",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CarrinhoPage.xaml",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CarrinhoPage.xaml",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FornecedorPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml.cs",
@@ -147,13 +147,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ItemsViewModel.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
               "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
               "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\ItemsViewModel.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAA6wJ4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAALAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T05:59:41.88Z",
               "IsPinned": true,
@@ -161,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "FornecedoresMap.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Mapping\\FornecedoresMap.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Mapping\\FornecedoresMap.cs",
@@ -173,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Fornecedores.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Domain\\Classes\\Fornecedores.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Domain\\Classes\\Fornecedores.cs",
@@ -185,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FornecedoresController.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
@@ -198,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FornecedorPage.xaml",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml",
@@ -210,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PedidosPage.xaml",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\PedidosPage.xaml",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\PedidosPage.xaml",
@@ -222,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PedidosViewModel.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\PedidosViewModel.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\PedidosViewModel.cs",
@@ -234,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PedidosPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\PedidosPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\PedidosPage.xaml.cs",
@@ -246,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "PedidosRepository.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Repositories\\PedidosRepository.cs",
@@ -258,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\PedidosController.cs",
@@ -271,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Pedidos.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Models\\Pedidos.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Models\\Pedidos.cs",
@@ -283,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RequestAPI.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\Request\\RequestAPI.cs",
               "RelativeDocumentMoniker": "Request\\RequestAPI.cs",
@@ -295,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "requests.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Services\\requests.cs",
@@ -307,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml",
@@ -319,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
@@ -331,26 +331,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 0,
               "Title": "CadastroProdutoPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
               "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
               "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\CadastroProdutoPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAF4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T23:01:42.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
               "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T23:01:42.595Z",
               "EditorCaption": ""
@@ -381,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AboutPage.xaml.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml.cs",
@@ -394,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AboutViewModel.cs",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\ViewModels\\AboutViewModel.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\ViewModels\\AboutViewModel.cs",
@@ -406,13 +406,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AboutPage.xaml",
               "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
               "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
               "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\AboutPage.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwC0AAACpAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-04T05:50:21.155Z",
               "EditorCaption": ""
