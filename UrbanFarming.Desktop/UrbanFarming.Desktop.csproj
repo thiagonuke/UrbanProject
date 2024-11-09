@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UrbanFarming.Service\UrbanFarming.Service.csproj" />
+    <ProjectReference Include="..\UrbanFarmingWeb.UI\UrbanFarmingWeb.UI.csproj" />
   </ItemGroup>
 
 </Project>

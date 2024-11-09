@@ -4,6 +4,7 @@ using UrbanFarming.Domain.Classes;
 using UrbanFarming.Domain.Interfaces.Repositories;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 
 namespace UrbanFarming.Data.Repositories
 {
@@ -95,7 +96,6 @@ namespace UrbanFarming.Data.Repositories
 
                      _context.Database.ExecuteSqlRaw(query);
                 }
-
 
                 return true;
             }

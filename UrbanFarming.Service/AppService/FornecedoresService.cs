@@ -16,7 +16,7 @@ namespace UrbanFarming.Service.AppService
             _fornecedoresRepository = fornecedoresRepository;
         }
 
-        public async Task<Fornecedores> GetByCodigo(string codigo)
+        public async Task<Fornecedores> GetByCodigo(int codigo)
         {
             var fornecedor = await _fornecedoresRepository.GetByCodigo(codigo);
             if (fornecedor == null)
@@ -52,7 +52,7 @@ namespace UrbanFarming.Service.AppService
             return await _fornecedoresRepository.PutFornecedor(fornecedor);
         }
 
-        public async Task<bool> DeleteFornecedor(string codigo)
+        public async Task<bool> DeleteFornecedor(int codigo)
         {
             var fornecedorExiste = await _fornecedoresRepository.GetByCodigo(codigo);
             if (fornecedorExiste == null)
