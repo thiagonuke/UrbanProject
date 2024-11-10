@@ -24,7 +24,6 @@ namespace UrbanFarming.Desktop
                 Email = txtEmail.Text,
                 Senha = txtSenha.Text,
                 Nome = txtNome.Text,
-                Administrador = chkAdministrador.Checked
             };
 
             HttpResponseMessage response = await _requestAPI.EfetuarCadastrado(dados);

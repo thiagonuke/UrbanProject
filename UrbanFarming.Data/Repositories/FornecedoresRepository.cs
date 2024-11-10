@@ -10,7 +10,7 @@ namespace UrbanFarming.Data.Repositories
     {
         public FornecedoresRepository(UrbanContext context) : base(context)
         {
-
+             
         }
         
         public async Task<Fornecedores> GetByCodigo(int codigo) 

@@ -178,8 +178,25 @@ namespace AppMobileUrban.ViewModels
         {
 
             await Shell.Current.GoToAsync("CadastroProdutoPage");
+
+            await Shell.Current.GoToAsync("..", true);
         }
 
+        public async void LoadItemsAsync()
+        {
+            Items.Clear();
+            var request = new RestRequest("/api/Produtos/GetAllProdutos", Method.Get);
+            var response = await client.ExecuteAsync(request);
+
+            var items = JsonConvert.DeserializeObject<List<Produtos>>(response.Content);
+            if (items != null)
+            {
+                foreach (var item in items)
+                {
+                    Items.Add(item);
+                }
+            }
+        }
         protected virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

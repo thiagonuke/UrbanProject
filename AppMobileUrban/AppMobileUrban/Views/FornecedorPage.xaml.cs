@@ -37,7 +37,6 @@ namespace AppMobileUrban.Views
         {
             var fornecedor = new Fornecedores
             {
-                Codigo = CodigoEntry.Text,
                 RazaoSocial = RazaoSocialEntry.Text,
                 NomeFantasia = NomeFantasiaEntry.Text,
                 EnquadramentoEstadual = EnquadramentoEntry.Text,

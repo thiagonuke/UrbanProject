@@ -57,5 +57,12 @@ namespace UrbanFarmingDesktop.UI
                 MessageBox.Show("Por favor, preencha os campos de usuário e senha.");
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            FormAdm formAdm = new FormAdm();
+            formAdm.Text = "Controle de Acesso";
+            formAdm.Show();
+        }
     }
 }

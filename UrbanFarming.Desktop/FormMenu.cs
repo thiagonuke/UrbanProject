@@ -16,20 +16,20 @@ namespace UrbanFarming.Desktop
 
             if (SessaoUsuario.UsuarioLogado != null && SessaoUsuario.UsuarioLogado.Administrador)
             {
-                buttonAdm = new Button
-                {
-                    Location = new System.Drawing.Point(88, 302),
-                    Name = "buttonAdm",
-                    Size = new System.Drawing.Size(175, 47),
-                    Text = "Controle de Acesso",
-                    UseVisualStyleBackColor = true
-                };
-                buttonAdm.Click += buttonAdm_Click;
-                Controls.Add(buttonAdm);
+                //buttonAdm = new Button
+                //{
+                //    Location = new System.Drawing.Point(88, 302),
+                //    Name = "buttonAdm",
+                //    Size = new System.Drawing.Size(175, 47),
+                //    Text = "Controle de Acesso",
+                //    UseVisualStyleBackColor = true
+                //};
+                //buttonAdm.Click += buttonAdm_Click;
+                //Controls.Add(buttonAdm);
 
                 buttonDelProdutos = new Button
                 {
-                    Location = new System.Drawing.Point(88, 365),
+                    Location = new System.Drawing.Point(88, 302),
                     Name = "buttonDelProdutos",
                     Size = new System.Drawing.Size(175, 47),
                     Text = "Deletar Produtos",
@@ -64,13 +64,6 @@ namespace UrbanFarming.Desktop
         {
             FormFornecedor formFornecedor = new FormFornecedor();
             formFornecedor.Show();
-        }
-
-        private void buttonAdm_Click(object sender, EventArgs e)
-        {
-            FormAdm formAdm = new FormAdm();
-            formAdm.Text = "Controle de Acesso";
-            formAdm.Show();
         }
 
         private void buttonDelProdutos_Click(object sender, EventArgs e)
