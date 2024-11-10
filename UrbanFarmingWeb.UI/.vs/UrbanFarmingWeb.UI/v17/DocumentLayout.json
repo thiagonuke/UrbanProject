@@ -3,7 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarmingWeb.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|c:\\users\\adalb\\desktop\\pim 4 semestre\\novo projeto\\new\\urbanproject\\urbanfarmingapi\\controllers\\segurancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|c:\\users\\adalb\\desktop\\pim 4 semestre\\novo projeto\\new\\urbanproject\\urbanfarmingweb.ui\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|c:\\users\\adalb\\desktop\\pim 4 semestre\\novo projeto\\new\\urbanproject\\appmobileurban\\appmobileurban\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\users\\adalb\\desktop\\pim 4 semestre\\novo projeto\\new\\urbanproject\\urbanfarming.desktop\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531C74E4-B078-47AE-AE18-DBD4CD276E44}|..\\UrbanFarming.Data\\UrbanFarming.Data.csproj|c:\\users\\adalb\\desktop\\pim 4 semestre\\novo projeto\\new\\urbanproject\\urbanfarming.data\\repositories\\produtosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|c:\\users\\adalb\\desktop\\pim 4 semestre\\novo projeto\\new\\urbanproject\\urbanfarmingapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|c:\\users\\adalb\\desktop\\pim 4 semestre\\novo projeto\\new\\urbanproject\\urbanfarming.desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,17 +32,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarmingWeb.UI\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:26:58.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarming.Desktop\\Program.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\Program.cs",
+              "ToolTip": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarming.Desktop\\Program.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T00:19:46.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SegurancaController.cs",
+              "DocumentMoniker": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "ToolTip": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:05:19.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T01:27:48.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutosRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarming.Data\\Repositories\\ProdutosRepository.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Repositories\\ProdutosRepository.cs",
+              "ToolTip": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarming.Data\\Repositories\\ProdutosRepository.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Data\\Repositories\\ProdutosRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T01:27:48.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMenu.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs [Projeto]",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormMenu.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T01:26:35.274Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "ToolTip": "C:\\Users\\adalb\\Desktop\\PIM 4 SEMESTRE\\NOVO PROJETO\\new\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
               "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T00:06:01.285Z",
               "EditorCaption": ""
