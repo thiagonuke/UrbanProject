@@ -6,9 +6,9 @@
              x:Class="AppMobileUrban.Views.PedidosPage"
              BackgroundColor="Green">
 
+    <!-- Definindo o contexto de dados -->
     <ContentPage.BindingContext>
         <viewmodels:PedidosViewModel />
-        <!-- Definindo o contexto de dados -->
     </ContentPage.BindingContext>
 
     <ContentPage.Content>
@@ -16,10 +16,11 @@
             <Label Text="Pedidos" 
                    FontSize="24" 
                    HorizontalOptions="Center" 
-                   TextColor="white"
+                   TextColor="White"
                    Margin="0,20,0,10" />
             <BoxView HeightRequest="1" BackgroundColor="White" HorizontalOptions="FillAndExpand" />
 
+            <!-- CollectionView para exibir a lista de pedidos -->
             <CollectionView ItemsSource="{Binding Pedidos}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -34,10 +35,23 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
 
-                            <Label Text="{Binding CodigoPedido}" Grid.Column="0" TextColor="White" />
-                            <Label Text="{Binding ValorTotal}" Grid.Column="1" TextColor="White" />
-                            <Label Text="{Binding Usuario}" Grid.Column="2" TextColor="White" />
-                            <Label Text="{Binding Data, StringFormat='{0:dd/MM/yyyy}'}" Grid.Column="3" TextColor="White" />
+                            <!-- Campos exibidos com formatação -->
+                            <Label Text="{Binding CodigoPedido}" 
+                                   Grid.Column="0" 
+                                   TextColor="White" 
+                                   FontAttributes="Bold"/>
+
+                            <Label Text="{Binding ValorTotal, StringFormat='R$ {0:F2}'}" 
+                                   Grid.Column="1" 
+                                   TextColor="White" />
+
+                            <Label Text="{Binding Usuario}" 
+                                   Grid.Column="2" 
+                                   TextColor="White" />
+
+                            <Label Text="{Binding Data, StringFormat='{0:dd/MM/yyyy}'}" 
+                                   Grid.Column="3" 
+                                   TextColor="White" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

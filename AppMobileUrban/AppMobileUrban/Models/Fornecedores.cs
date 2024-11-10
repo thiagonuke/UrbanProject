@@ -2,7 +2,7 @@
 {
     public class Fornecedores
     {
-        public string Codigo { get; set; } 
+       public int Codigo { get; set; } 
         public string RazaoSocial { get; set; } 
         public string NomeFantasia { get; set; } 
         public string CNPJ { get; set; } 

@@ -1,4 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
+﻿using System;
 using System.Windows.Forms;
 
 namespace UrbanFarmingDesktop.UI
@@ -10,15 +10,15 @@ namespace UrbanFarmingDesktop.UI
         private RadioButton radioButtonFisica;
         private GroupBox grupoTipoPessoa;
         private TextBox inputCodigo;
-        private TextBox inputCNPJ;
+        private MaskedTextBox inputCNPJ;
         private TextBox inputRazaoSocial;
         private TextBox inputNomeFantasia;
-        private TextBox inputCPF;
+        private MaskedTextBox inputCPF;
         private TextBox inputNome;
         private TextBox inputEmail;
-        private TextBox inputTelefone;
+        private MaskedTextBox inputTelefone;
         private TextBox inputEndereco;
-        private TextBox inputCEP;
+        private MaskedTextBox inputCEP;
         private TextBox inputPaisOrigem;
         private Button btnCadastrar;
         private Panel campoCNPJ;
@@ -40,16 +40,16 @@ namespace UrbanFarmingDesktop.UI
             radioButtonFisica = new RadioButton();
             inputCodigo = new TextBox();
             campoCNPJ = new Panel();
-            inputCNPJ = new TextBox();
+            inputCNPJ = new MaskedTextBox();
             inputRazaoSocial = new TextBox();
             inputNomeFantasia = new TextBox();
             campoCPF = new Panel();
-            inputCPF = new TextBox();
+            inputCPF = new MaskedTextBox();
             inputNome = new TextBox();
             inputEmail = new TextBox();
-            inputTelefone = new TextBox();
+            inputTelefone = new MaskedTextBox();
             inputEndereco = new TextBox();
-            inputCEP = new TextBox();
+            inputCEP = new MaskedTextBox();
             inputPaisOrigem = new TextBox();
             btnCadastrar = new Button();
             grupoTipoPessoa.SuspendLayout();
@@ -114,8 +114,8 @@ namespace UrbanFarmingDesktop.UI
             // inputCNPJ
             // 
             inputCNPJ.Location = new Point(0, 0);
+            inputCNPJ.Mask = "00.000.000/0000-00"; // Máscara de CNPJ
             inputCNPJ.Name = "inputCNPJ";
-            inputCNPJ.PlaceholderText = "CNPJ (14 dígitos)";
             inputCNPJ.Size = new Size(200, 23);
             inputCNPJ.TabIndex = 4;
             inputCNPJ.Leave += inputCNPJ_Leave;
@@ -149,8 +149,8 @@ namespace UrbanFarmingDesktop.UI
             // inputCPF
             // 
             inputCPF.Location = new Point(0, 0);
+            inputCPF.Mask = "000.000.000-00"; // Máscara de CPF
             inputCPF.Name = "inputCPF";
-            inputCPF.PlaceholderText = "CPF (11 dígitos)";
             inputCPF.Size = new Size(200, 23);
             inputCPF.TabIndex = 7;
             // 
@@ -173,8 +173,8 @@ namespace UrbanFarmingDesktop.UI
             // inputTelefone
             // 
             inputTelefone.Location = new Point(12, 282);
+            inputTelefone.Mask = "(99) 99999-9999"; // Máscara de Telefone
             inputTelefone.Name = "inputTelefone";
-            inputTelefone.PlaceholderText = "Telefone";
             inputTelefone.Size = new Size(200, 23);
             inputTelefone.TabIndex = 10;
             // 
@@ -189,8 +189,8 @@ namespace UrbanFarmingDesktop.UI
             // inputCEP
             // 
             inputCEP.Location = new Point(12, 340);
+            inputCEP.Mask = "00000-000"; // Máscara de CEP
             inputCEP.Name = "inputCEP";
-            inputCEP.PlaceholderText = "CEP";
             inputCEP.Size = new Size(200, 23);
             inputCEP.TabIndex = 12;
             // 

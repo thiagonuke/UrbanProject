@@ -1,41 +1,104 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Json;
 using System.Windows.Forms;
+using UrbanFarming.Domain.Classes;
+using UrbanFarmingWeb.UI.Request;
 
 namespace UrbanFarmingDesktop.UI
 {
     public partial class FormPedido : Form
     {
+        private readonly RequestAPI _requestAPI;
+        private List<Produtos> _produtosDisponiveis;
+        private List<ItensPedido> _itensPedido;
+
         public FormPedido()
         {
             InitializeComponent();
-            CarregarPedidos();
+            var httpClient = new HttpClient();
+            _requestAPI = new RequestAPI(httpClient);
+            _itensPedido = new List<ItensPedido>();
+            CarregarProdutos();
         }
 
-        private void CarregarPedidos()
+        private async void CarregarProdutos()
         {
-            var pedidos = ObterPedidos();
-            dataGridViewPedidos.DataSource = pedidos;
+            _produtosDisponiveis = await _requestAPI.ListaProdutos();
+            comboBoxProdutos.DataSource = _produtosDisponiveis;
+            comboBoxProdutos.DisplayMember = "Nome";
+            comboBoxProdutos.ValueMember = "Codigo";
         }
 
-        private List<Pedido> ObterPedidos()
+        private void buttonAdicionar_Click(object sender, EventArgs e)
         {
-            return new List<Pedido>
+            var produtoSelecionado = (Produtos)comboBoxProdutos.SelectedItem;
+            int quantidade;
+
+            if (int.TryParse(textBoxQuantidade.Text, out quantidade) && quantidade > 0)
             {
-                new Pedido { CodigoPedido = 101, ValorTotal = 250.75m, Usuario = "usuario1", Data = DateTime.Parse("2024-10-10"), IdItem = 1 },
-                new Pedido { CodigoPedido = 102, ValorTotal = 150.00m, Usuario = "usuario2", Data = DateTime.Parse("2024-10-11"), IdItem = 2 },
-                new Pedido { CodigoPedido = 103, ValorTotal = 320.50m, Usuario = "usuario3", Data = DateTime.Parse("2024-10-12"), IdItem = 3 },
-                new Pedido { CodigoPedido = 104, ValorTotal = 99.99m, Usuario = "usuario4", Data = DateTime.Parse("2024-10-13"), IdItem = 4 }
-            };
-        }
-    }
+                var itemPedido = new ItensPedido
+                {
+                    NomeProduto = produtoSelecionado.Nome,
+                    CodigoProduto = produtoSelecionado.Codigo,
+                    Quantidade = quantidade,
+                    ValorUnitario = produtoSelecionado.Valor
+                };
 
-    public class Pedido
-    {
-        public int CodigoPedido { get; set; }
-        public decimal ValorTotal { get; set; }
-        public string Usuario { get; set; }
-        public DateTime Data { get; set; }
-        public int IdItem { get; set; }
+                _itensPedido.Add(itemPedido);
+                AtualizarGridItens();
+                CalcularValorTotal();
+                textBoxQuantidade.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Quantidade inválida!");
+            }
+        }
+
+        private void AtualizarGridItens()
+        {
+            dataGridViewItens.DataSource = null;
+            dataGridViewItens.DataSource = _itensPedido;
+        }
+
+        private void CalcularValorTotal()
+        {
+            decimal valorTotal = _itensPedido.Sum(i => i.Quantidade * i.ValorUnitario);
+            labelValorTotal.Text = $"Valor Total: {valorTotal:C}";
+        }
+
+        private async void buttonFinalizarPedido_Click(object sender, EventArgs e)
+        {
+            if (_itensPedido.Count == 0)
+            {
+                MessageBox.Show("Adicione itens ao pedido antes de finalizar.");
+                return;
+            }
+
+            var pedido = new Pedido
+            {
+                ValorTotal = _itensPedido.Sum(i => i.Quantidade * i.ValorUnitario),
+                Usuario = "Usuario", 
+                Data = DateTime.Now,
+                Itens = _itensPedido
+            };
+
+            var response = await _requestAPI.EfetuarCadastradoPedido(pedido);
+
+            if (response.IsSuccessStatusCode)
+            {
+                MessageBox.Show("Pedido realizado com sucesso!");
+                _itensPedido.Clear();
+                AtualizarGridItens();
+                CalcularValorTotal();
+            }
+            else
+            {
+                MessageBox.Show($"Erro ao realizar o pedido: {response.ReasonPhrase}");
+            }
+        }
     }
 }

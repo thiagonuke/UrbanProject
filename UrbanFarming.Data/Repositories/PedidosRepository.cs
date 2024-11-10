@@ -4,6 +4,7 @@ using UrbanFarming.Domain.Classes;
 using UrbanFarming.Domain.Interfaces.Repositories;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 
 namespace UrbanFarming.Data.Repositories
 {
@@ -24,10 +25,33 @@ namespace UrbanFarming.Data.Repositories
 
         public async Task<List<Pedido>> GetAllPedidos()
         {
+            var response = new List<Pedido>();
             try
             {
-                return await _context.PedidoLst.Include(p => p.Itens)
-              .ToListAsync();
+
+
+                var Pedidos = await _context.Pedidos.ToListAsync();
+
+                foreach (var pedido in Pedidos)
+                {
+
+                    var ped = new Pedido()
+                    {
+                        CodigoPedido = pedido.CodigoPedido,
+                        ValorTotal = pedido.ValorTotal,
+                        Usuario = pedido.Usuario,
+                        Data = pedido.Data
+
+                    };
+
+                    ped.Itens = _context.ItensPedido.FromSqlRaw($"select * from ItensPedido where CodigoPedido = {pedido.CodigoPedido}").ToList();
+
+
+                    response.Add(ped);
+
+                }
+
+                return response;
             }
             catch(Exception ex) { return null; }
           
@@ -44,7 +68,8 @@ namespace UrbanFarming.Data.Repositories
 
                     id = _context.Pedidos.Max(p => p.CodigoPedido) + 1;
                 }
-                pedido.CodigoPedido = id;
+
+                pedido.CodigoPedido = id == 0 ? 1 : id;
 
 
                 await _context.Pedidos.AddAsync(new Pedidos()
@@ -59,14 +84,18 @@ namespace UrbanFarming.Data.Repositories
 
                 foreach (var i in pedido.Itens)
                 {
-                    i.CodigoPedido = id;
+                    string query = String.Format(
+                                "INSERT INTO [dbo].[ItensPedido] ([CodigoPedido], [NomeProduto], [CodigoProduto], [Quantidade], [ValorUnitario]) " +
+                                 "VALUES ({0}, '{1}', '{2}', {3}, {4})",
+                                 pedido.CodigoPedido,
+                                 i.NomeProduto,
+                                 i.CodigoProduto,
+                                 i.Quantidade,
+                                 i.ValorUnitario.ToString(System.Globalization.CultureInfo.InvariantCulture) // Garante o ponto decimal
+                             );
 
-
-                    await _context.ItensPedido.AddAsync(i);
-
-                    await _context.SaveChangesAsync();
+                     _context.Database.ExecuteSqlRaw(query);
                 }
-
 
                 return true;
             }

@@ -39,5 +39,20 @@ namespace UrbanFarmingWeb.UI.Controllers
 
             return BadRequest("Erro ao cadastrar o produto.");
         }
+        public IActionResult Deletar([FromBody] string produto)
+        {
+            try
+            {
+                var cadastro = _request.EfetuarDeleteProduto(produto).Result;
+
+                return Ok(new { message = "Produto cadastrado com sucesso!" });
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Erro ao cadastrar o produto.");
+            }
+          
+        }
     }
 }

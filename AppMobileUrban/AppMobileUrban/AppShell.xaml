@@ -90,6 +90,7 @@
         <ShellContent Route="PedidosPage" ContentTemplate="{DataTemplate local:PedidosPage}" />
     </FlyoutItem>
     <MenuItem Text="Logout" IconImageSource="icon_logout.png" Clicked="OnLogoutClicked" />
+    <ShellContent Route="CarrinhoPage" ContentTemplate="{DataTemplate local:CarrinhoPage}" />
 
     <!--<FlyoutItem Title="Browse" Icon="icon_feed.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />

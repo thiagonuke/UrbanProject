@@ -2,15 +2,8 @@
 {
     partial class Login
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,22 +13,17 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label2 = new Label();
-            label3 = new Label();
-            button1 = new Button();
+            txtSenha = new TextBox();
+            txtUsuario = new TextBox();
+            lblUsuario = new Label();
+            lblSenha = new Label();
+            btnLogin = new Button();
             pictureBox2 = new PictureBox();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -50,54 +38,53 @@
             label1.TabIndex = 0;
             label1.Text = "Urban Farming";
             // 
-            // textBox1
+            // txtSenha
             // 
-            textBox1.Location = new Point(468, 265);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(207, 23);
-            textBox1.TabIndex = 1;
+            txtSenha.Location = new Point(468, 256);
+            txtSenha.Name = "txtSenha";
+            txtSenha.Size = new Size(207, 23);
+            txtSenha.TabIndex = 1;
+            txtSenha.UseSystemPasswordChar = true;
             // 
-            // textBox2
+            // txtUsuario
             // 
-            textBox2.Location = new Point(468, 181);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(207, 23);
-            textBox2.TabIndex = 2;
+            txtUsuario.Location = new Point(468, 181);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(207, 23);
+            txtUsuario.TabIndex = 2;
             // 
-            // label2
+            // lblUsuario
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.ForeColor = Color.Green;
-            label2.Location = new Point(468, 163);
-            label2.Name = "label2";
-            label2.Size = new Size(47, 15);
-            label2.TabIndex = 5;
-            label2.Text = "Usuário";
+            lblUsuario.AutoSize = true;
+            lblUsuario.BackColor = Color.Transparent;
+            lblUsuario.ForeColor = Color.Green;
+            lblUsuario.Location = new Point(468, 163);
+            lblUsuario.Name = "lblUsuario";
+            lblUsuario.Size = new Size(47, 15);
+            lblUsuario.TabIndex = 5;
+            lblUsuario.Text = "Usuário";
             // 
-            // label3
+            // lblSenha
             // 
-            label3.AutoSize = true;
-            label3.ForeColor = Color.Green;
-            label3.Location = new Point(468, 247);
-            label3.Name = "label3";
-            label3.Size = new Size(39, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Senha";
+            lblSenha.AutoSize = true;
+            lblSenha.ForeColor = Color.Green;
+            lblSenha.Location = new Point(468, 238);
+            lblSenha.Name = "lblSenha";
+            lblSenha.Size = new Size(39, 15);
+            lblSenha.TabIndex = 6;
+            lblSenha.Text = "Senha";
             // 
-            // button1
+            // btnLogin
             // 
-            button1.BackColor = Color.Green;
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(536, 322);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 7;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = false;
-
-            // Adicione a linha abaixo
-            button1.Click += new System.EventHandler(this.button1_Click);
+            btnLogin.BackColor = Color.Green;
+            btnLogin.ForeColor = SystemColors.ControlLightLight;
+            btnLogin.Location = new Point(524, 329);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(75, 23);
+            btnLogin.TabIndex = 7;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // pictureBox2
             // 
@@ -110,35 +97,51 @@
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = Color.Green;
+            label2.Location = new Point(524, 294);
+            label2.Name = "label2";
+            label2.Size = new Size(151, 15);
+            label2.TabIndex = 9;
+            label2.Text = "Ainda não possui cadastro?";
+            label2.Click += label2_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(26, 23, 35);
             ClientSize = new Size(800, 450);
-            Controls.Add(pictureBox2);
-            Controls.Add(button1);
-            Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(textBox2);
+            Controls.Add(pictureBox2);
+            Controls.Add(btnLogin);
+            Controls.Add(lblSenha);
+            Controls.Add(lblUsuario);
+            Controls.Add(txtSenha);
+            Controls.Add(txtUsuario);
             Controls.Add(label1);
             Name = "Login";
-            Text = "Form1";
+            Text = "Login";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
-        #endregion
+        #region Windows Form Designer generated code
 
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label2;
-        private Label label3;
-        private Button button1;
+        private TextBox txtSenha;
+        private TextBox txtUsuario;
+        private Label lblUsuario;
+        private Label lblSenha;
+        private Button btnLogin;
         private PictureBox pictureBox2;
+
+        #endregion
+
+        private Label label2;
     }
 }

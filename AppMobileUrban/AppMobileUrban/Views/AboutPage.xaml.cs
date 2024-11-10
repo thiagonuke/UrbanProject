@@ -20,5 +20,14 @@ namespace AppMobileUrban.Views
         {
             await Navigation.PushAsync(new CadastroProdutoPage(new requests()));
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            if (BindingContext is ItemsViewModel viewModel)
+            {
+                viewModel.LoadItemsAsync();
+            }
+        }
     }
 }

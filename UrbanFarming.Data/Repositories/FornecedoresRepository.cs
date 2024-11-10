@@ -10,10 +10,10 @@ namespace UrbanFarming.Data.Repositories
     {
         public FornecedoresRepository(UrbanContext context) : base(context)
         {
-
+             
         }
         
-        public async Task<Fornecedores> GetByCodigo(string codigo) 
+        public async Task<Fornecedores> GetByCodigo(int codigo) 
         {
             try
             {
@@ -34,17 +34,20 @@ namespace UrbanFarming.Data.Repositories
         {
             try
             {
+                fornecedores.Codigo = 0;
+
                 await _context.Fornecedores.AddAsync(fornecedores);
                 await _context.SaveChangesAsync();
 
                 return true;
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                throw new Exception($"Ocorreu um erro: {ex.Message}");
+                throw new Exception($"Ocorreu um erro ao cadastrar fornecedor: {ex.Message}");
             }
         }
-     
+
+
         public async Task<bool> PutFornecedor(Fornecedores fornecedor)
         {
             try
@@ -76,7 +79,7 @@ namespace UrbanFarming.Data.Repositories
             }
         }
 
-        public async Task<bool> DeleteFornecedor(string codigo)
+        public async Task<bool> DeleteFornecedor(int codigo)
         {
             try
             {

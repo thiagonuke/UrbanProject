@@ -1,30 +1,56 @@
 ﻿@model List<UrbanFarming.Domain.Classes.Pedido>
 <style>
-
-    .container {
-        margin-top:5vh;
-        width: 100%;
+    body {
+        background-color: seagreen;
+        font-family: Arial, sans-serif;
     }
 
-    h1, hr {
-        margin-bottom: 20px;
-        color:white;
+    .containerped {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
     }
 
     table {
         width: 100%;
         border-collapse: collapse;
+        margin-top: 20px;
     }
 
     th, td {
-        padding: 12px;
-        color:black;
-        border: 1px solid #ddd;
-        text-align: center;
-        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: left;
     }
 
-    
+    th {
+        background-color: #f4f4f4;
+    }
+
+    .items {
+        display: none; 
+        margin: 10px 0 0 0;
+        transition: max-height 0.3s ease;
+    }
+
+    .show {
+        display: block; 
+    }
+
+    .toggle-button {
+        cursor: pointer;
+        color: #007bff;
+        text-decoration: underline;
+        margin-top: 10px;
+        display: inline-block;
+    }
 </style>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -32,8 +58,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body style="background-color: seagreen;">
-    <div class="container">
+<body>
+    <div class="containerped mt-4">
         <h1>Pedidos Feitos</h1>
         <hr />
         <table>
@@ -51,52 +77,35 @@
                 {
                     <tr>
                         <td>@pedido.CodigoPedido</td>
-                        <td>@pedido.ValorTotal</td>
+                        <td>@pedido.ValorTotal.ToString("C")</td>
                         <td>@pedido.Usuario</td>
                         <td>@pedido.Data.ToShortDateString()</td>
                         <td>
-                            <ul>
+                            <div class="toggle-button" onclick="toggleItems(this)">Mostrar Itens</div>
+                            <ul class="items">
                                 @foreach (var item in pedido.Itens)
                                 {
-                                    <li>
-                                        @item.NomeProduto - Código: @item.CodigoProduto, Quantidade: @item.Quantidade, Valor Unitário: @item.ValorUnitario
-                                    </li>
+                                    <li>@item.NomeProduto - Código: @item.CodigoProduto, Quantidade: @item.Quantidade, Valor Unitário: @item.ValorUnitario.ToString("C")</li>
                                 }
                             </ul>
                         </td>
                     </tr>
                 }
             </tbody>
+        </table>
     </div>
 
+    <script>
+        function toggleItems(button) {
+            const itemsList = button.nextElementSibling;
+            if (itemsList.classList.contains('show')) {
+                itemsList.classList.remove('show');
+                button.innerText = 'Mostrar Itens';
+            } else {
+                itemsList.classList.add('show');
+                button.innerText = 'Ocultar Itens';
+            }
+        }
+    </script>
 </body>
 </html>
-
-
-<script>
-    const pedidos = [
-        { CodigoPedido: 101, ValorTotal: 250.75, Usuario: 'usuario1', Data: '2024-10-10', IdItem: 1 },
-        { CodigoPedido: 102, ValorTotal: 150.00, Usuario: 'usuario2', Data: '2024-10-11', IdItem: 2 },
-        { CodigoPedido: 103, ValorTotal: 320.50, Usuario: 'usuario3', Data: '2024-10-12', IdItem: 3 },
-        { CodigoPedido: 104, ValorTotal: 99.99, Usuario: 'usuario4', Data: '2024-10-13', IdItem: 4 }
-    ];
-
-    function carregarPedidos() {
-        const tabela = document.querySelector("#tabelaPedidos tbody");
-        pedidos.forEach(pedido => {
-            const linha = document.createElement("tr");
-
-            linha.innerHTML = `
-                <td>${pedido.CodigoPedido}</td>
-                <td>R$ ${pedido.ValorTotal.toFixed(2)}</td>
-                <td>${pedido.Usuario}</td>
-                <td>${pedido.Data}</td>
-                <td>${pedido.IdItem}</td>
-            `;
-
-            tabela.appendChild(linha);
-        });
-    }
-
-    window.onload = carregarPedidos;
-</script>

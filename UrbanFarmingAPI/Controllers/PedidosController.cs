@@ -48,7 +48,7 @@ namespace UrbanFarmingAPI.Controllers
             }
         }
 
-        [HttpGet("GetAllPedidos")]
+        [HttpGet]
         public async Task<IActionResult> GetAllPedidos()
         {
             var pedidos = await _PedidosService.GetAllPedidos();
