@@ -201,12 +201,12 @@
     <section class="product-grid mt-4">
         @foreach (var prod in Model)
         {
-            
+
             <div class="product-card d-flex flex-column justify-content-around shadow-lg">
                 @if (ViewBag.Adm == true)
                 {
-                    <div class="col-md-12 d-flex justify-content-end">
-                        <div class="col-md-2 rounded-circle bg-danger d-flex justify-content-center align-items-center" id="removeprod"><span class="close">&times;</span></div>
+                    <div class="col-md-12 d-flex justify-content-end" id="removeprod">
+                        <div class="col-md-2 rounded-circle bg-danger d-flex justify-content-center align-items-center"><span class="close">&times;</span></div>
                     </div>
 
                 }
@@ -271,6 +271,7 @@
     const closeCartBtn = document.querySelector('.close-cart-btn');
 
     const checkoutbtn = document.querySelector('#checkout-btn');
+    debugger
     const removeprod = document.querySelector('#removeprod');
     const cartItemsList = document.querySelector('.cart-items');
     const totalPriceElement = document.querySelector('.total-price');
@@ -291,9 +292,10 @@
     checkoutbtn.addEventListener('click', () => {
         toastr.success("Compra Finalizada com sucesso!")
         cart.classList.remove('open');
-    });  
-    
+    });
+
     try {
+        debugger
         removeprod.addEventListener('click', (e) => {
             const productCard = e.target.closest('.product-card');
 
@@ -303,10 +305,14 @@
 
         });
 
-    } catch (ex) { }
+    } catch (ex) { 
+        debugger
+
+        var teste = ""
+    }
 
     function RemoveItem(productCod) {
-
+        debugger
         $.ajax({
             url: '/Produtos/Deletar',
             type: 'POST',
@@ -327,7 +333,7 @@
 
 
     function addToCart(itemName, itemPrice, productCod) {
-        
+
         const existingItem = cartItems.find(item => item.name === itemName);
 
         itemPrice = Number(parseFloat(itemPrice).toFixed(2));
@@ -338,7 +344,7 @@
             cartItems.push({ name: itemName, price: itemPrice, quantity: 1, Codigo: productCod });
         }
 
-        total = parseFloat((total + itemPrice).toFixed(2)); 
+        total = parseFloat((total + itemPrice).toFixed(2));
         updateCartUI();
     }
 
@@ -347,7 +353,7 @@
 
         if (itemIndex !== -1) {
             const item = cartItems[itemIndex];
-            total = parseFloat((total - item.price * item.quantity).toFixed(2)); 
+            total = parseFloat((total - item.price * item.quantity).toFixed(2));
             cartItems.splice(itemIndex, 1);
         }
 
