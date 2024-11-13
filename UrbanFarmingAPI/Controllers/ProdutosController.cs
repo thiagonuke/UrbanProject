@@ -18,7 +18,7 @@ namespace UrbanFarmingAPI.Controllers
 
         [HttpPost]
         public async Task<IActionResult> CadastrarProduto([FromBody] Produtos produto)
-        {
+            {
             if (produto == null)
             {
                 return BadRequest(new { mensagem = "Produto inválido." });
