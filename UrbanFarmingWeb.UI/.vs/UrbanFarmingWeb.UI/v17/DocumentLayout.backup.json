@@ -1,12 +1,148 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31BB30BC-4D91-4FEA-9A65-E7244E97E780}|..\\AppMobileUrban\\AppMobileUrban\\AppMobileUrban.csproj|e:\\projeto\\funciona pfv\\urbanproject\\appmobileurban\\appmobileurban\\views\\fornecedorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\controllers\\segurancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531C74E4-B078-47AE-AE18-DBD4CD276E44}|..\\UrbanFarming.Data\\UrbanFarming.Data.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.data\\repositories\\fornecedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.desktop\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C100B482-5FCB-4C9C-88FB-E75FC0383094}|..\\UrbanFarming.Desktop\\UrbanFarming.Desktop.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarming.desktop\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEF75B8-F4E5-48D8-AD79-49BD7D78BBA9}|..\\UrbanFarmingAPI\\UrbanFarmingAPI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|e:\\projeto\\funciona pfv\\urbanproject\\urbanfarmingweb.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C226B9F8-8240-4487-90F9-A07EE3A65BFA}|UrbanFarmingWeb.UI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 267,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FornecedoresRepository.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Repositories\\FornecedoresRepository.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Data\\Repositories\\FornecedoresRepository.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Data\\Repositories\\FornecedoresRepository.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Data\\Repositories\\FornecedoresRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAIA4wCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:15:02.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FornecedorPage.xaml.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml.cs",
+              "RelativeToolTip": "..\\AppMobileUrban\\AppMobileUrban\\Views\\FornecedorPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwCUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:40:24.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SegurancaController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\SegurancaController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:55:58.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\appsettings.json",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\appsettings.json",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T20:55:39.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingWeb.UI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T20:55:32.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMenu.cs [Projeto]",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormMenu.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs [Projeto]",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormMenu.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:43:52.911Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarming.Desktop\\FormMenu.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarming.Desktop\\FormMenu.cs",
+              "RelativeToolTip": "..\\UrbanFarming.Desktop\\FormMenu.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:42:19.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FornecedoresController.cs",
+              "DocumentMoniker": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
+              "RelativeDocumentMoniker": "..\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
+              "ToolTip": "E:\\Projeto\\funciona pfv\\UrbanProject\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
+              "RelativeToolTip": "..\\UrbanFarmingAPI\\Controllers\\FornecedoresController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:40:24.454Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
