@@ -8,3 +8,4 @@ nos/
 **/obj/
 **/bin/
 **/Debug/
+/AppMobileUrban/AppMobileUrban.Android/AppMobileUrban.Android.csproj.user

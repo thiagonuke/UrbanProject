@@ -27,18 +27,14 @@ namespace UrbanFarming.Desktop
                 //buttonAdm.Click += buttonAdm_Click;
                 //Controls.Add(buttonAdm);
 
-                buttonDelProdutos = new Button
-                {
-                    Location = new System.Drawing.Point(88, 302),
-                    Name = "buttonDelProdutos",
-                    Size = new System.Drawing.Size(175, 47),
-                    Text = "Deletar Produtos",
-                    UseVisualStyleBackColor = true
-                };
-                buttonDelProdutos.Click += buttonDelProdutos_Click;
-                Controls.Add(buttonDelProdutos);
-
                 ClientSize = new System.Drawing.Size(350, 450);
+
+                buttonProduto.Visible = true;
+
+                btnDeletarProd.Click += buttonDelProdutos_Click;
+
+                btnDeletarProd.Visible = true;
+
             }
         }
 

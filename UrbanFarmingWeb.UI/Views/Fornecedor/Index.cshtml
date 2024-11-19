@@ -145,7 +145,7 @@
                     Codigo: $('#inputCodigo').val(),
                     RazaoSocial: pessoaJuridica ? $('#inputRazaoSocial').val() : $("#inputNome").val(),
                     NomeFantasia: pessoaJuridica ? $('#inputNomeFantasia').val() : null,
-                    CNPJ: pessoaJuridica ? $('#inputCNPJ').val() : null,
+                    CNPJ: pessoaJuridica ? $('#inputCNPJ').val().replace(".", '').replace('/', '').replace('-', '') : null,
                     CPF: pessoaFisica ? $('#inputCPF').val() : null,
                     NomeCompleto: pessoaFisica ? $('#inputNome').val() : null,
                     Email: $('#inputEmail').val(),
